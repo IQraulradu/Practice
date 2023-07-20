@@ -39,14 +39,17 @@ body{
     left: 768px;
     width: 385px;
     height: 41px;
-    color: var(--unamed-color-ffffff);
     text-align: center;
+    color: var(--unnamed-color-ffffff);
     font: normal normal normal 32px/43px Futura PT;
     color:#ffffff;
-    text-transform: uppercase;
     font-size: 32px;
     opacity: 1;
+    text-transform: uppercase;
+    white-space: nowrap;
+    
 }
+
 
 
 
