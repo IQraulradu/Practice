@@ -1,0 +1,39 @@
+*{
+   top:0px;
+   left:0px;
+   width:1920px;
+   height:1080px;
+}
+
+body{
+    background:#0D0D0D 0% 0% no-repeat padding-box;
+    opacity: 1;   
+}
+#PhotoVienna {
+    position:absolute;
+    top:40px;
+    left:867px;
+    width:186px;
+    height:162px;
+    background-repeat: no-repeat;
+    background: transparent url('./Photo/Group\ 56.png') 0% 0% no-repeat padding-box;
+    transform: (-50%, -50%);
+    opacity: 1;
+}
+#WelcomeText{
+    position:absolute;
+    top:242px;
+    left:649px;
+    width:620px;
+    height:63px;
+    color:#ffffff;
+    text-align: center;
+    font: normal normal normal 24px/32px Futura PT;
+    font-size: 24px;
+    letter-spacing: -0.12px;
+    opacity: 1;
+}
+
+
+
+
