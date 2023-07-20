@@ -60,6 +60,76 @@ body{
     opacity: 1;
     margin-left: 13px;
     margin-top: 22.5px;
-
+}
+#DayBox{
+    position:absolute;
+    top: 506px;
+    left: 651px;
+    width: 186px;
+    height: 94px;
+    opacity: 1;
+    border: 1px solid white;
+}
+#MonthBox
+{
+    position: absolute;
+    top: 506px;
+    left: 867px;
+    width: 186px;
+    height: 94px;
+    opacity: 1;
+    border: 1px solid white;
 }
 
+#YearBox{
+    position: absolute;
+    top: 506px;
+    left: 1083px;
+    width: 186px;
+    height: 94px;
+    border: 1px solid white;
+}
+#DayText{
+    position: initial;
+    top: 506px;
+    left: 681px;
+    width: 71px;
+    height: 20px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color:#ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-right: 85px;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+#WhiteDayBox{
+    position: initial;
+    top: 530px;
+    left: 651px;
+    width: 176px;
+    height: 60px;
+    border: 2px solid var(--unnamed-color-ffffff);
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    margin-top: -10px;
+}
+
+#date{
+    position: initial;
+    top: 549px;
+    left: 681px;
+    width: 128px;
+    height: 23px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 18px/23px Futura PT;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    align-items: center;
+    
+}
