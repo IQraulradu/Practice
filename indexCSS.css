@@ -46,11 +46,20 @@ body{
     font-size: 32px;
     opacity: 1;
     text-transform: uppercase;
-    white-space: nowrap;
-    
+    white-space: nowrap; 
 }
+#LittleColor{
+    position: absolute;
+    top: 464px;
+    left: 945px;
+    width: 32px;
+    height: 2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: 1px solid #ffffff;
+    margin-left: 21px;
+    margin-top: 18px;
 
-
-
-
+}
 
