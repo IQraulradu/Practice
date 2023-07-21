@@ -349,4 +349,45 @@ body{
     border-radius: 50%;
     overflow: hidden;
   }
+
+  #footerContainer
+  {
+    position: relative;
+    top: 970px;
+    left: 489px;   
+    width: 942px;
+    height: 100px;
+    background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border:1px solid white;
+  }
+  #WhiteEndBox
+  {
+    position: relative;
+    top: 980px;
+    left: 499px;
+    width: 922px;
+    height: 80px;
+    border: 1px solid var(--unnamed-color-ffffff);
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+    margin-top: -102px;
+    
+  }
+  #FinishParagraph
+  {
+    position: relative;
+    top: 1000px;
+    left: 519px;
+    width: 624px;
+    height: 40px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 15px/20px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: -80px;
+  }
  
