@@ -284,3 +284,34 @@ body{
 }
 /*Year box End*/
 
+#BtnLegal
+{
+    position: relative;
+    top: 660px;
+    left: 810px;
+    width: 302px;
+    height: 50px;
+    background: var(--unnamed-color-d94016) 0% 0% no-repeat padding-box;
+    background: #D94016 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 27px;
+    opacity: 1;
+}
+#TextBtnInside
+{
+    position: relative;
+    top: 675px;
+    left: 840px;
+    width: 242px;
+    height: 20px;
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-top: -55px;
+    
+}
+
