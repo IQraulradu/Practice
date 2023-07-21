@@ -16,7 +16,7 @@ body{
     width:186px;
     height:162px;
     background-repeat: no-repeat;
-    background: transparent url('./Photo/Group\ 56.png') 0% 0% no-repeat padding-box;
+    background: transparent url('./PhotoIndex/Group\ 56.png') 0% 0% no-repeat padding-box;
     transform: (-50%, -50%);
     opacity: 1;
 }
@@ -311,7 +311,42 @@ body{
     color: #FFFFFF;
     text-transform: uppercase;
     opacity: 1;
-    margin-top: -55px;
+    margin-top: -55px;   
+}
+#IconsPhoto
+{
+    position: relative;
+    top: 908px;
+    left: 897px;
+    width: 126px;
+    height: 32px;
+    opacity: 1;  
+}
+#FacebookPhoto,
+#InstagramPhoto,
+#TwitterPhoto {
+    position: absolute;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+    opacity: 1;
     
 }
-
+#FacebookPhoto {
+    left: 0;
+    background: transparent url('PhotoIndex/Facebook.png') 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+#InstagramPhoto {
+    left: 60px; 
+    background: transparent url('PhotoIndex/Instagram.png') 0% 0% no-repeat padding-box;
+  }
+  
+#TwitterPhoto {
+    left: 120px; 
+    background: transparent url('PhotoIndex/Twitter.png') 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+ 
