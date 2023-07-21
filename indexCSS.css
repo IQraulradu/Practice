@@ -61,6 +61,7 @@ body{
     margin-left: 13px;
     margin-top: 22.5px;
 }
+/*Day box start*/
 #DayBox{
     position:relative;
     top: 506px;
@@ -68,8 +69,7 @@ body{
     width: 186px;
     height: 94px;
     opacity: 1;
-    margin-top: -2100px;
-    
+    margin-top: -2100px; 
 }
 #DayText{ 
     position: relative;
@@ -96,16 +96,13 @@ body{
     border: 2px solid #FFFFFF;
     opacity: 1;
     margin-top: -35px;
-    z-index: 0;
 }
 #DateDiv
 {
     position:relative;
     top:-505px;
     margin-left: -666px;
-    z-index: 1;
 }
-
 #DateDay{
     position: inherit;
     top: 549px;
@@ -117,10 +114,10 @@ body{
     font: normal normal normal 18px/23px Futura PT;
     letter-spacing: 0px;
     color:#FFFFFF;
-    opacity: 1;
+    opacity: 0;
     z-index: 1;
-    background:transparent;
-    border:none;
+    /* background:transparent;
+    border:none; */
 }
 #InsiderColorDay{
     position:relative;
@@ -134,10 +131,12 @@ body{
     opacity: 1;
     margin-top: -1586px;
     margin-left: -652px;
-    z-index: 0; 
 }
+/*Day box finish*/
 
-/* #MonthBox
+
+/*Month box start*/
+#MonthBox
 {
     position: relative;
     top: 506px;
@@ -145,17 +144,143 @@ body{
     width: 186px;
     height: 94px;
     opacity: 1;
-    border: 1px solid white;
+    margin-top: -60px;
+}
+#MonthText
+{
+    position: relative;
+    top: 506px;
+    left: 897px;
+    width: 106px;
+    height: 20px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
     margin-top: -95px;
 }
+#WhiteMonthBox
+{
+    position: relative;
+    top: 530px;
+    left: 867px;
+    width: 176px;
+    height: 60px;
+    border: 2px solid var(--unnamed-color-ffffff);
+    border: 2px solid #FFFFFF;
+    margin-top: -35px;
+    opacity: 1;
+    z-index: 0;
+}
+#MonthDiv{
+    position:relative;
+    top:-505px;
+    margin-left: -866px;
+    
+}
+#DateMonth
+{
+    position: inherit;
+    top: 549px;
+    left: 897px;
+    width: 128px;
+    height: 23px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 18px/23px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background-color: white;
+    z-index: 1;
+    opacity: 0;
+}
+#InsiderColorMonth
+{
+    position: inherit;
+    top: 540px;
+    left: 877px;
+    width: 176px;
+    height: 60px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: -1586px;
+    margin-left: -867px;
+}
+/*Month box end*/
 
+/*Year box Start*/
 #YearBox{
     position: relative;
     top: 506px;
     left: 1083px;
     width: 186px;
     height: 94px;
+    opacity: 1;
+    margin-top: -60px;
+}
+#YearText{
+    position: relative;
+    top: 506px;
+    left: 1113px;
+    width: 98px;
+    height: 20px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
     margin-top: -95px;
-} */
+}
+#WhiteYearBox
+{
+    position: relative;
+    top: 530px;
+    left: 1083px;
+    width: 176px;
+    height: 60px;
+    border: 2px solid var(--unnamed-color-ffffff);
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    margin-top: -35px;
+}
+#YearDiv{
+    position:relative;
+    top:-505px;
+    margin-left: -1085px; 
+}
 
+#DateYear{
+    position: inherit;
+    top: 549px;
+    left: 1113px;
+    width: 128px;
+    height: 23px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 18px/23px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0;
+    z-index: 1;
+}
+#InsiderColorYear
+{
+    position: relative;
+    top: 540px;
+    left: 1093px;
+    width: 176px;
+    height: 60px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: -1586px;
+    margin-left: -1083px;
+}
+/*Year box End*/
 
