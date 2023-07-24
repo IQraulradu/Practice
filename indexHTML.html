@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="indexCSS.css" />
-    <meta http-equiv="refresh" content="10">
+    <!-- <script src="indexJS.js"></script> -->
+    <script>src="jquery.js"</script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta http-equiv="refresh" content="25">
     <title>ProjectReea</title> 
 </head>
 <body>
@@ -60,16 +63,18 @@
         <a href="https://twitter.com"><div id="TwitterPhoto"></div></a>
     </div>
 
-    <div id="footerContainer"></div>
-    <div id="WhiteEndBox"></div>
-    <p id="FinishParagraph">We use cookies on our website to give you the most relevant experience. By clicking “Accept”, 
-        you consent to the use of ALL cookies. Alternatively, you may click “Cookie Settings” to provide a controlled consent.
-    </p>
     
+        <div id="footerContainer" class="hidden"></div>
+        <div id="WhiteEndBox" ></div>
+        <p id="FinishParagraph">We use cookies on our website to give you the most relevant experience. By clicking “Accept”, 
+            you consent to the use of ALL cookies. Alternatively, you may click “Cookie Settings” to provide a controlled consent.
+        </p> 
+        
+            <a href=""><input type="button" id="BtnCookieAccept" oneclick="activateButtons()"><p id="AcceptBtn">ACCEPT</p></a>
+            <a href=""><input type="button" id="BtnCookieSetings" oneclick="activateButtons()"><p id="CookieSettings">COOKIE SETTINGS</p></a>
+            <div class="Tap"></div>
+
+        <script src="indexJS.js"></script>
        
-
-            
-
-
 </body>
 </html>

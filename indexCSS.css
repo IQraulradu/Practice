@@ -348,10 +348,10 @@ body{
     background: transparent url('PhotoIndex/Twitter.png') 0% 0% no-repeat padding-box;
     border-radius: 50%;
     overflow: hidden;
-  }
+}
 
-  #footerContainer
-  {
+#footerContainer
+{
     position: relative;
     top: 970px;
     left: 489px;   
@@ -360,10 +360,9 @@ body{
     background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 1;
-    border:1px solid white;
-  }
-  #WhiteEndBox
-  {
+}
+#WhiteEndBox
+{
     position: relative;
     top: 980px;
     left: 499px;
@@ -374,9 +373,9 @@ body{
     opacity: 1;
     margin-top: -102px;
     
-  }
-  #FinishParagraph
-  {
+}
+#FinishParagraph
+{
     position: relative;
     top: 1000px;
     left: 519px;
@@ -389,5 +388,92 @@ body{
     color: #FFFFFF;
     opacity: 1;
     margin-top: -80px;
-  }
- 
+}
+
+#BtnCookieAccept
+{
+    position: absolute;
+    top:1007px;
+    left:1185px;
+    width: 72px;
+    height: 27px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 27px;
+    opacity: 1;
+    margin-top: 190px;  
+}
+#BtnCookieAccept:hover
+{
+    opacity:0;
+    transition: opacity 1s;
+}
+#AcceptBtn
+{
+    position: absolute;
+    top:1012px;
+    left:1200px;
+    width: 42px;
+    height: 17px;
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal medium 13px/17px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-top: 190px;
+    margin-left: -10px;
+    white-space: nowrap;
+}
+
+#BtnCookieSetings
+{
+    position: absolute;
+    top: 1007px;
+    left: 1267px;
+    width: 154px;
+    height: 27px;
+    background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ffffff);
+    background: #000000 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 27px;
+    opacity: 1;
+    margin-top: 190px;
+    white-space: nowrap;       
+}
+#CookieSettings
+{
+    position: absolute;
+    top: 1012px;
+    left: 1282px;
+    width: 104px;
+    height: 17px;
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal medium 13px/17px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap; 
+    margin-top: 190px;
+    margin-left: -10px;  
+}
+.Tap{
+    position: relative;
+    top: 1090px;
+    left: 489px;
+    width: 942px;
+    height: 100px;
+    opacity: 1;
+    transition: hidden;
+}
+
+
+
+
+
+
