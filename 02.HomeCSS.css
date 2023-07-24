@@ -1,15 +1,39 @@
-/* *{
-        font-family: Arial, sans-serif;
-        margin: 0px;
-        padding: 0px;  
+*{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;  
         
-} */
-#BackgroundPhoto
+}
+.BackgroundPhoto
 {
+    position: absolute;
     top: 0px;
     left: 1px;
     width: 1919px;
     height: 1170px;
     background: transparent url('PhotoHome/Group\ 10.png') 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+#nav-bar
+{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 1920px;
+    height: 180px;
+    opacity: 1;
+    border: 1px solid red;
+}
+
+
+#logo-vienna-distribution
+{
+    position: absolute;
+    top:25px;
+    left:327px;
+    width: 149px;
+    height: 130px;
+    background: transparent url('PhotoHome/Group\ 56.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border:1px solid rgb(255, 0, 0)
 }
