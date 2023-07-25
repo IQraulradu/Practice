@@ -14,34 +14,39 @@
     background: transparent url('PhotoHome/Group\ 10.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+
 #navbar
 {
-    position: absolute;
+    position: relative;
     top:0px;
-    left:0px;
+    left:-1px;
     width: 1920px;
     height: 180px;
     opacity: 1;
     border: 1px solid rgb(252, 250, 250);
+    /* z-index: 10; */
+    white-space: nowrap;
+    line-height: 50px;
+    /* justify-content: space-between; */
 }
-
-
 .LogoVienna
 {
-    position: inherit;
+    position: relative;
     top:25px;
     left:327px;
     width: 149px;
     height: 130px;
     background: transparent url('PhotoHome/Group\ 56.png') 0% 0% no-repeat padding-box;
     opacity: 1;
-    border:1px solid rgb(255, 0, 0);
-    float:left;
-    margin-left: 28px;
-    font-size: 1.5em;
+    display: inline-block;
+    /*float:left inlocuit cu display, problema
+    de distantare intre elemente si pozitionare*/
     letter-spacing: 1px;
     margin-top: -20px;
-    /* text-transform: uppercase; */
+    /* margin-left: 28px;
+    font-size: 1.5em;
+    border:1px solid rgb(255, 0, 0);
+    text-transform: uppercase; */
 } @media(max-width)
 {
     .LogoVienna{
@@ -49,3 +54,74 @@
         /* margin-top: -10px; */
     }
 }
+#Menu
+{
+    position: absolute;
+    top:76px;
+    left: 651px;
+    width: 941px;
+    height: 29px;
+    opacity: 1;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+   
+}
+#Menu li{
+  
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#Menu li:last-child{
+    margin-right: 0;
+}
+
+/*HOVER HOME*/
+#HomeLI{
+    position: inherit;
+    top: 76px;
+    left: 651px;
+    width: 47px;
+    height: 22px;
+    color: var(--unnamed-color-ffffff);
+    text-align: right;
+    font: normal normal medium 17px/22px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    /* text-transform: uppercase; */
+    transition: all 0.4s;
+    /* overflow: hidden; */
+}
+#HomeLI:hover{
+    color:#FFFFFF;
+}
+#HomeLI::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 50px;
+    margin-left:-25px;
+    bottom: -10px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+    transition: all 0.2s;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+
+}
+#HomeLI:hover::after,
+#HomeLI:focus::after {
+  opacity: 1;
+  transform: translateX(-50%) scaleX(1); /* Linia se va extinde din mijloc la stânga și dreapta */
+}
+
+
+
