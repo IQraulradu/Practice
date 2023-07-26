@@ -14,17 +14,32 @@
     background: transparent url('PhotoHome/Group\ 10.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+.Scrolled
+{
+    position: inherit;
+    top: 0px;
+    left: -1px;
+    width: 1920px;
+    height: 100px;
+    opacity: 1;
+    background: var(--unnamed-color-0d0d0d) 0% 0% no-repeat padding-box;
+    background: #0D0D0D 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Scrolled.Scrolled
+{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(13, 13, 13, 0));
+}
 
 #navbar
 {
     position: relative;
     top:0px;
-    left:-1px;
+    left:0px;
     width: 1920px;
     height: 180px;
     opacity: 1;
-    white-space: nowrap;
-    line-height: 50px;
+    /* line-height: -50px; */
      /* z-index: 10; */
     /* justify-content: space-between; */
 }
@@ -66,15 +81,18 @@
     text-decoration: none;
     padding: 0;
     margin: 0;
+    line-height: 50px;
+    margin-left: -30px;
+    margin-top: -15px;
+    white-space: nowrap;
    
 }
 #Menu li{
   
     list-style: none;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 37px;
 }
-
 #Menu li:last-child{
     margin-right: 0;
 }
@@ -88,13 +106,14 @@
     color: var(--unnamed-color-ffffff);
     text-align: right;
     font: normal normal medium 17px/22px Futura PT;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
     transition: all 0.4s;
     /* overflow: hidden; */
     /* text-transform: uppercase; */
 }
+
 #HomeLI::after{
     position: absolute;
     content: "";
@@ -107,7 +126,6 @@
     opacity: 0;
     transition: all 0.2s;
     pointer-events: none;
-    transition: all 0.2s;
     transform: translateX(-50%) scaleX(0);
     transform-origin: center;
 }
@@ -149,7 +167,7 @@
     pointer-events: none;
     transform: translateX(-50%) scaleX(0);
     transform-origin: center;
-    margin-left:190px;
+    margin-left:225px;
 }
 #BrandsLI:hover::after,
 #BrandsLI:focus::after {
@@ -188,7 +206,7 @@
     pointer-events: none;
     transform: translateX(-50%) scaleX(0);
     transform-origin: center;
-    margin-left:380px;
+    margin-left:430px;
 }
 
 #BrandsLIGallery:hover::after,
@@ -227,7 +245,7 @@
     pointer-events: none;
     transform: translateX(-50%) scaleX(0);
     transform-origin: center;
-    margin-left: 495px;
+    margin-left: 562px;
 }
 #NewsLI:hover::after,
 #NewsLI:focus::after {
@@ -265,7 +283,7 @@
     pointer-events: none;
     transform: translateX(-50%) scaleX(0);
     transform-origin: center;
-    margin-left: 585px;
+    margin-left: 670px;
 }
 #AboutUSLI:hover::after,
 #AboutUSLI:focus::after {
@@ -305,7 +323,7 @@
     pointer-events: none;
     transform: translateX(-50%) scaleX(0);
     transform-origin: center;
-    margin-left: 688px;
+    margin-left: 788px;
 }
 #ContactLI:hover::after,
 #ContactLI:focus::after {
@@ -314,11 +332,15 @@
 }
 
 #fb{
-    position: relative;
+    position: inherit;
     top: 80px;
     left: 1501px;
     width: 8px;
     height: 16px;
-    background: transparent url('/PhotoHome/Facebook.png') 0% 0% no-repeat padding-box;
+    /* background: transparent url('/facebooktest.png') 0% 0% no-repeat padding-box; */
     opacity: 1;
+    align-items: center;
+    color:white;
+    border:1px solid yellow;
+
 }
