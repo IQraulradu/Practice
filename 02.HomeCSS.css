@@ -1,5 +1,4 @@
 *{
-    font-family: Arial, sans-serif;
     margin: 0px;
     padding: 0px;  
         
@@ -246,7 +245,7 @@
     pointer-events: none;
     transform: translateX(-50%) scaleX(0);
     transform-origin: center;
-    margin-left: 562px;
+    margin-left: 555px;
 }
 #NewsLI:hover::after,
 #NewsLI:focus::after {
@@ -284,7 +283,7 @@
     pointer-events: none;
     transform: translateX(-50%) scaleX(0);
     transform-origin: center;
-    margin-left: 670px;
+    margin-left: 658px;
 }
 #AboutUSLI:hover::after,
 #AboutUSLI:focus::after {
@@ -322,7 +321,7 @@
     pointer-events: none;
     transform: translateX(-50%) scaleX(0);
     transform-origin: center;
-    margin-left: 788px;
+    margin-left: 776px;
 }
 #ContactLI:hover::after,
 #ContactLI:focus::after {
@@ -377,7 +376,7 @@
     width: 808px;
     height: 468px;
     opacity: 1;
-    border:1px solid rgb(255, 0, 0);
+
 }
 .RectangleGroup
 {
@@ -388,7 +387,7 @@
     height: 388px;
     background: transparent linear-gradient(90deg, #000000CC 0%, #00000000 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
-    border:1px solid yellow;
+
 }
 .DrinkLessText
 {
@@ -399,7 +398,55 @@
     height: 228px;
     color: var(--unnamed-color-ffffff);
     text-align: left;
-    color:white;
+    font: normal normal normal 100px/100px Futura PT;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    z-index: 1;
+}
+.RectangleColorInsideText
+{
+    position:absolute;
+    top: 519px;
+    left: 543px;
+    width: 432px;
+    height: 53px;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    transform: rotate(0);
+    z-index:0;
+    margin-top: -15px;
+}
+.BtnGroup
+{
+    position: absolute;
+    top: 639px;
+    left: 327px;
+    width: 188px;
+    height: 50px;
+    background: var(--unnamed-color-f34213) 0% 0% no-repeat padding-box;
+    background: #F34213 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 27px;
+    opacity: 1;
+}
+#BtnInsideText
+{
+    position:static;
+    top: 654px;
+    left: 357px;
+    width: 128px;
+    height: 20px;
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
 }
 
 
