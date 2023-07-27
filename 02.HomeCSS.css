@@ -30,6 +30,7 @@
 {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(13, 13, 13, 0));
 }
+/*nav-bar start*/
 
 #navbar
 {
@@ -290,7 +291,6 @@
   opacity: 1;
   transform: translateX(-50%) scaleX(1); 
 }
-
 #ContactLI
 {
     position: inherit;
@@ -307,7 +307,6 @@
     opacity: 1;
     transition:  all 0.4s;
 }
-
 #ContactLI::after
 {
     position: absolute;
@@ -330,7 +329,6 @@
   opacity: 1;
   transform: translateX(-50%) scaleX(1); 
 }
-
 #fb{
     position: inherit;
     top: 80px;
@@ -341,6 +339,67 @@
     opacity: 1;
     align-items: center;
     color:white;
-    border:1px solid yellow;
+    margin-left: 15px;
 
 }
+#insta
+{
+    position: inherit;
+    top:80px;
+    left: 1534px;
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+    align-items: center;
+    color:white;
+    
+
+}
+#twt
+{
+    position: inherit;
+    top: 81px;
+    left: 1575px;
+    width: 17px;
+    height: 14px;
+    color:white;
+    align-items: center;
+    opacity: 1;
+
+
+}
+/*nav-bar end*/
+
+.Group{
+    position: absolute;
+    top: 301px;
+    left: 247px;
+    width: 808px;
+    height: 468px;
+    opacity: 1;
+    border:1px solid rgb(255, 0, 0);
+}
+.RectangleGroup
+{
+    position:absolute;
+    top: 341px;
+    left: 287px;
+    width: 728px;
+    height: 388px;
+    background: transparent linear-gradient(90deg, #000000CC 0%, #00000000 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border:1px solid yellow;
+}
+.DrinkLessText
+{
+    position: absolute;
+    top: 381px;
+    left: 327px;
+    width: 618px;
+    height: 228px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    color:white;
+}
+
+
