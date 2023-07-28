@@ -406,6 +406,7 @@
     opacity: 1;
     z-index: 1;
 }
+
 .RectangleColorInsideText
 {
     position:absolute;
@@ -537,11 +538,13 @@
     opacity: 1;
     overflow: hidden;
     /* transform:matrix(1.00,0.10,0.00,1.00,0,70);  */
-    /* display: block;
-    box-sizing: border-box; */
-
-
+    display: block;
+    box-sizing: border-box;
+    transform: translate3d(0, -127px, 0) skewY(-2deg);
+    /* background-origin: content-box;
+    background-size: 100% 100%; */
 }
+
 
 
 
