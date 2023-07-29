@@ -1,7 +1,6 @@
 *{
     margin: 0px;
-    padding: 0px;  
-        
+    padding: 0px;
 }
 .BackgroundPhoto
 {
@@ -13,6 +12,7 @@
     background: transparent url('PhotoHome/Group\ 10.png') 0% 0% no-repeat padding-box;
     opacity: 1;
     overflow: hidden;
+    z-index: 1;
 }
 .Scrolled
 {
@@ -25,6 +25,7 @@
     background: var(--unnamed-color-0d0d0d) 0% 0% no-repeat padding-box;
     background: #0D0D0D 0% 0% no-repeat padding-box;
     opacity: 1;
+    z-index: 1;
 }
 .Scrolled.Scrolled
 {
@@ -377,6 +378,7 @@
     width: 808px;
     height: 468px;
     opacity: 1;
+    z-index: 1;
 
 }
 .RectangleGroup
@@ -388,6 +390,7 @@
     height: 388px;
     background: transparent linear-gradient(90deg, #000000CC 0%, #00000000 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
+    z-index: 1;
 
 }
 .DrinkLessText
@@ -404,7 +407,7 @@
     color: #FFFFFF;
     text-transform: uppercase;
     opacity: 1;
-    z-index: 1;
+    z-index: 2;
     white-space: nowrap;
 }
 
@@ -423,6 +426,7 @@
     transform: rotate(0);
     z-index:0;
     margin-top: -15px;
+    z-index: 1;
 }
 .BtnGroup
 {
@@ -436,6 +440,7 @@
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 27px;
     opacity: 1;
+    z-index: 1;
 }
 #BtnInsideText
 {
@@ -527,6 +532,7 @@
     background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
     background: #54B3A1 0% 0% no-repeat padding-box;
     opacity: 1;
+    z-index: 1;
 }
 .DownSideColorPath
 {
@@ -534,17 +540,18 @@
     top: 1081px;
     left: 0px;
     width: 1920px;
-    height: 903px;
+    height: 840px;
     background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
     background: #54B3A1 0% 0% no-repeat padding-box;
     opacity: 1;
     overflow: hidden;
-    /* transform:matrix(1.00,0.10,0.00,1.00,0,70);  */
+    /* transform:matrix(1.00,0.10,0.00,1.00,-1,90);  */
     display: block;
     box-sizing: border-box;
-    transform: translate3d(0, -127px, 0) skewY(-2deg);
-    background-origin: content-box;
+    transform: translate3d(0, -130px, 0) skewY(-2deg);
+    background-origin:content-box;
     background-size: 100% 100%;
+    z-index: 2;
 }
 .DesignText
 {
@@ -559,6 +566,7 @@
     letter-spacing: 0px;
     color: #F5F5F5;
     opacity: 1;
+    z-index: 2;
 
 }
 
@@ -573,6 +581,7 @@
     display: flex;
     font-size: 15px;
     justify-content: space-between;
+    z-index: 2;
 
 }
 .FacebookGroup
@@ -617,9 +626,42 @@
     background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
     background: #54B3A1 0% 0% no-repeat padding-box;
     opacity: 1;
-    border:1px solid red;
-    z-index: auto;
-
-
+    border: 1px solid red;
+    z-index: 1;  
 }
-
+.Artboard{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 8600px;
+    background: var(--unnamed-color-0d0d0d) 0% 0% no-repeat padding-box;
+    background: #0D0D0D 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.ProductRange
+{
+    position: absolute;
+    top: 2066px;
+    left: 729px;
+    width: 462px;
+    height: 289px;
+    opacity: 1;
+    z-index: 1;
+    border: 1px solid yellow;
+    color: white;
+}
+.Path16
+{
+    position: absolute;
+    top: 2066px;
+    left: 942px;
+    width: 36px;
+    height: 50px;
+    border: 2px solid var(--unnamed-color-ffffff);
+    background: transparent url('/PhotoHome/Path\ 16.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: 1px solid red;
+    overflow: hidden;
+    z-index: 5;
+}
