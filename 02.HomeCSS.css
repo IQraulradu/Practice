@@ -545,7 +545,6 @@
     transform: translate3d(0, -127px, 0) skewY(-2deg);
     background-origin: content-box;
     background-size: 100% 100%;
-    z-index: 0;
 }
 .DesignText
 {
@@ -571,11 +570,9 @@
     width: 126px;
     height: 32px;
     opacity: 1;
-    border: 1px solid yellow;
     display: flex;
     font-size: 15px;
     justify-content: space-between;
-    z-index: 0;
 
 }
 .FacebookGroup
@@ -587,9 +584,7 @@
     height: 32px;
     background: transparent 0% 0% no-repeat padding-box;
     opacity:1;
-    border: 1px solid rgb(17, 0, 255);
     color:#FFFFFF;
-    margin-top: 5px;
 }
 .InstagramGroup
 {
@@ -600,12 +595,7 @@
     height: 32px;
     background: transparent 0% 0% no-repeat padding-box;
     opacity: 1;
-    border:1px solid red;
     color:white;
-    margin-top: 5px;
-
-
-
 }
 .TwitterGroup
 {
@@ -616,9 +606,20 @@
     height: 32px;
     background: transparent 0% 0% no-repeat padding-box;
     opacity: 1;
-    border: 1px solid black;
     color:#ffffff;
-    margin-top: 5px;
 }
+.RectangleBottom
+{   position:absolute;
+    top: 1889px;
+    left: 945px;
+    width: 30px;
+    height: 126px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border:1px solid red;
+    z-index: auto;
 
+
+}
 
