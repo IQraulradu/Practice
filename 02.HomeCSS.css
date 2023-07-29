@@ -545,6 +545,7 @@
     transform: translate3d(0, -127px, 0) skewY(-2deg);
     background-origin: content-box;
     background-size: 100% 100%;
+    z-index: 0;
 }
 .DesignText
 {
@@ -562,7 +563,62 @@
 
 }
 
+.SocialMediaGroup
+{
+    position: absolute;
+    top: 1679px;
+    left: 897px;
+    width: 126px;
+    height: 32px;
+    opacity: 1;
+    border: 1px solid yellow;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    z-index: 0;
+
+}
+.FacebookGroup
+{
+    position: inherit;
+    top: 1679px;
+    left: 897px;
+    width: 32px;
+    height: 32px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity:1;
+    border: 1px solid rgb(17, 0, 255);
+    color:#FFFFFF;
+    margin-top: 5px;
+}
+.InstagramGroup
+{
+    position: inherit;
+    top: 1679px;
+    left: 944px;
+    width: 32px;
+    height: 32px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border:1px solid red;
+    color:white;
+    margin-top: 5px;
 
 
+
+}
+.TwitterGroup
+{
+    position: inherit;
+    top: 1679px;
+    left: 991px;
+    width: 32px;
+    height: 32px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: 1px solid black;
+    color:#ffffff;
+    margin-top: 5px;
+}
 
 
