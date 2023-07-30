@@ -631,7 +631,6 @@
     background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
     background: #54B3A1 0% 0% no-repeat padding-box;
     opacity: 1;
-    border: 1px solid red;
     z-index: 1;  
 }
 .Artboard{
@@ -711,12 +710,19 @@
     height: 116px;
     border: 2px solid  var(--unnamed-color-ffffff);
     border: 2px solid #FFFFFF;
-    border-top:2px solid transparent;
-    border-right: 2px solid transparent;
-    box-sizing: border-box;
     opacity: 1;
+    border-right: 2px solid transparent;
+    border-top:none;
+    box-sizing: border-box;
+    overflow: hidden;
+    
 }
-
+.TopLineLeft {
+    width: 80%;
+    height: 2px; 
+    background-color: white;
+    transform: scaleY(1.0); 
+}
 .RightPath11
 {
     position: absolute;
@@ -727,7 +733,19 @@
     border: 2px solid  var(--unnamed-color-ffffff);
     border: 2px solid #FFFFFF;
     opacity: 1;
-    border-left: 2px solid transparent;
+    border-top:none;
+    border-left:none;
+    box-sizing: border-box;    
+    overflow: hidden;
 
+}
+.TopLineRight
+{
+    width: 80%;
+    margin-left: 25px;
+    height: 2px; 
+    background-color: white;
+    transform: scaleY(1.0);
+    transform-origin: left; 
 }
 
