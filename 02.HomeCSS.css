@@ -800,7 +800,8 @@
     background: transparent linear-gradient(180deg, #0C0C0C00 0%, #0C0C0C 100%) 0% 0% no-repeat padding-box;
     background: transparent url('Home/8b698c9222ef5ed4d4e0f5121efb731b.png') 0% 0% no-repeat padding-box;
     opacity: 0.8;
-    transition: 1.9s ease;
+    transition: all 1.5s;
+    border: 1px solid yellow;
     cursor: pointer;
     z-index: 0;
 }
@@ -811,10 +812,14 @@
     left: 327px;
     width: 294px;
     height: 180px;
-    background: transparent url('Home/8b698c9222ef5ed4d4e0f5121efb731b@2x.png') 30% 10% no-repeat padding-box;
+    background: transparent url('Home/8b698c9222ef5ed4d4e0f5121efb731b@2x.png') 0% 0% no-repeat padding-box;
     opacity: 1;
+    transform: scale(1.05);
     z-index: 0;
 }
+
+
+
 .BaijuDefaulState::after {
     content: '';
     position: absolute;
@@ -824,14 +829,16 @@
     height: 25%;
     pointer-events: none; 
     transition: height 0.5s ease;
-    background-size: cover;
     background: linear-gradient(to top, #0D0D0D, rgba(0, 0, 0, 0));
     z-index: 0;
-
 }
+
+
+
+
 .BaijuText
 {
-    position: sticky;
+    position: absolute;
     top: 2584px;
     left: 357px;
     width: 79px;
@@ -847,6 +854,7 @@
     overflow: hidden;
     opacity: 1;
     z-index: 2;
+
     
 }
 .BaijuText:hover
@@ -874,7 +882,7 @@
     width: 294px;
     height: 190px;
     background: transparent linear-gradient(180deg, #0C0C0C00 0%, #0C0C0C 100%) 0% 0% no-repeat padding-box;
-    background: transparent url('Home/e1e84fca0aedc1365f2e1e354ff245f6.png') 30% 10% no-repeat padding-box;
+    background: transparent url('Home/e1e84fca0aedc1365f2e1e354ff245f6.png') 0% 0% no-repeat padding-box;
     opacity: 0.8;
     border:1px solid yellow;
     cursor: pointer;
@@ -892,5 +900,6 @@
     z-index: 1;
     background:transparent url('Home/e1e84fca0aedc1365f2e1e354ff245f6@2x.png') 0% 0% no-repeat padding-box;
     border:1px solid rgb(183, 0, 255);
+    
 
 }
