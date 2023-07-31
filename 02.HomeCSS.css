@@ -756,7 +756,6 @@
     left: 820px;
     width: 280px;
     height: 20px;
-    border:1px solid yellow;
     color: var(--unnamed-color-ffffff);
     text-align: center;
     font: normal normal normal 15px/20px Futura PT;
@@ -766,4 +765,132 @@
     opacity: 1;
     white-space: nowrap;
 }
+.RangeText
+{
+    position: absolute;
+    top: 2282px;
+    left: 867px;
+    width: 188px;
+    height: 73px;
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 57px/73px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.Group36
+{
+    position: absolute;
+    top: 2066px;
+    left: 327px;
+    width: 1266px;
+    height: 789px;
+    opacity: 1;
+    border: 1px solid red;
+}
+.BaijuDefaulState
+{
+    position: absolute;
+    top: 2455px;
+    left: 327px;
+    width: 294px;
+    height: 190px;
+    background: transparent linear-gradient(180deg, #0C0C0C00 0%, #0C0C0C 100%) 0% 0% no-repeat padding-box;
+    background: transparent url('Home/8b698c9222ef5ed4d4e0f5121efb731b.png') 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    transition: 1.9s ease;
+    cursor: pointer;
+    z-index: 0;
+}
+.BaijuDefaulState:hover
+{
+    position: absolute;
+    top: 2455px;
+    left: 327px;
+    width: 294px;
+    height: 180px;
+    background: transparent url('Home/8b698c9222ef5ed4d4e0f5121efb731b@2x.png') 30% 10% no-repeat padding-box;
+    opacity: 1;
+    z-index: 0;
+}
+.BaijuDefaulState::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    pointer-events: none; 
+    transition: height 0.5s ease;
+    background-size: cover;
+    background: linear-gradient(to top, #0D0D0D, rgba(0, 0, 0, 0));
+    z-index: 0;
 
+}
+.BaijuText
+{
+    position: sticky;
+    top: 2584px;
+    left: 357px;
+    width: 79px;
+    height: 41px;
+    color: var(--unnamed-color-54b3a1);
+    text-align: left;
+    font: normal normal medium 32px/41px Futura PT;
+    letter-spacing: 0px;
+    color: #54B3A1;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    opacity: 1;
+    z-index: 2;
+    
+}
+.BaijuText:hover
+{
+    top: 2584px;
+    left: 357px;
+    width: 79px;
+    height: 41px;
+    color: var(--unnamed-color-54b3a1);
+    text-align: left;
+    font: normal normal medium 32px/41px Futura PT;
+    letter-spacing: 0px;
+    color: #54B3A1;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: 1.0s ease;
+    opacity: 1;
+    z-index: 2;
+}
+.RumDefaultState
+{
+    position: absolute;
+    top: 2455px;
+    left: 651px;
+    width: 294px;
+    height: 190px;
+    background: transparent linear-gradient(180deg, #0C0C0C00 0%, #0C0C0C 100%) 0% 0% no-repeat padding-box;
+    background: transparent url('Home/e1e84fca0aedc1365f2e1e354ff245f6.png') 30% 10% no-repeat padding-box;
+    opacity: 0.8;
+    border:1px solid yellow;
+    cursor: pointer;
+    transition: 1.9s ease;
+    z-index: 0;
+}
+.RumDefaultState:hover
+{
+    position: absolute;
+    top: 2455px;
+    left: 651px;
+    width: 294px;
+    height: 180px;
+    opacity: 1;
+    z-index: 1;
+    background:transparent url('Home/e1e84fca0aedc1365f2e1e354ff245f6@2x.png') 0% 0% no-repeat padding-box;
+    border:1px solid rgb(183, 0, 255);
+
+}
