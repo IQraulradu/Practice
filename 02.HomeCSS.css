@@ -788,7 +788,7 @@
     width: 1266px;
     height: 789px;
     opacity: 1;
-    border: 1px solid red;
+
 }
 .BaijuDefaulState
 {
@@ -800,26 +800,23 @@
     background: transparent linear-gradient(180deg, #0C0C0C00 0%, #0C0C0C 100%) 0% 0% no-repeat padding-box;
     background: transparent url('Home/8b698c9222ef5ed4d4e0f5121efb731b.png') 0% 0% no-repeat padding-box;
     opacity: 0.8;
-    transition: all 1.5s;
-    border: 1px solid yellow;
+    transition: all 0.8s ease;
     cursor: pointer;
-    z-index: 0;
+    z-index: 1;
 }
-.BaijuDefaulState:hover
+
+
+.BaijuDefaulState:hover 
 {
     position: absolute;
     top: 2455px;
     left: 327px;
     width: 294px;
     height: 180px;
-    background: transparent url('Home/8b698c9222ef5ed4d4e0f5121efb731b@2x.png') 0% 0% no-repeat padding-box;
     opacity: 1;
     transform: scale(1.05);
-    z-index: 0;
+    z-index: 1;
 }
-
-
-
 .BaijuDefaulState::after {
     content: '';
     position: absolute;
@@ -829,50 +826,46 @@
     height: 25%;
     pointer-events: none; 
     transition: height 0.5s ease;
-    background: linear-gradient(to top, #0D0D0D, rgba(0, 0, 0, 0));
+    background: linear-gradient(to top, #0D0D0D, rgba(0, 0, 0, 0)) 0% 0% no-repeat padding-box;
     z-index: 0;
 }
-
-
-
-
-.BaijuText
+#BaijuText
 {
     position: absolute;
-    top: 2584px;
+    top: 2604px;
     left: 357px;
     width: 79px;
     height: 41px;
     color: var(--unnamed-color-54b3a1);
     text-align: left;
     font: normal normal medium 32px/41px Futura PT;
+    text-align: left;
     letter-spacing: 0px;
-    color: #54B3A1;
+    color: #F5F5F5;
     text-transform: uppercase;
-    white-space: nowrap;
     cursor: pointer;
-    overflow: hidden;
     opacity: 1;
-    z-index: 2;
-
-    
+    z-index: 1;
+    margin-top: 18px;
 }
-.BaijuText:hover
+#BaijuText:hover
 {
     top: 2584px;
     left: 357px;
     width: 79px;
     height: 41px;
     color: var(--unnamed-color-54b3a1);
-    text-align: left;
     font: normal normal medium 32px/41px Futura PT;
+    text-align: left;
     letter-spacing: 0px;
     color: #54B3A1;
     text-transform: uppercase;
     white-space: nowrap;
-    transition: 1.0s ease;
+    transition: all 1.0s ease;
     opacity: 1;
-    z-index: 2;
+    z-index: 1;
+    
+    
 }
 .RumDefaultState
 {
@@ -884,9 +877,8 @@
     background: transparent linear-gradient(180deg, #0C0C0C00 0%, #0C0C0C 100%) 0% 0% no-repeat padding-box;
     background: transparent url('Home/e1e84fca0aedc1365f2e1e354ff245f6.png') 0% 0% no-repeat padding-box;
     opacity: 0.8;
-    border:1px solid yellow;
     cursor: pointer;
-    transition: 1.9s ease;
+    transition: all 0.8s ease;
     z-index: 0;
 }
 .RumDefaultState:hover
@@ -898,8 +890,414 @@
     height: 180px;
     opacity: 1;
     z-index: 1;
-    background:transparent url('Home/e1e84fca0aedc1365f2e1e354ff245f6@2x.png') 0% 0% no-repeat padding-box;
-    border:1px solid rgb(183, 0, 255);
+    cursor: pointer;
+    transform: scale(1.05);
+    cursor: pointer;
+    z-index: 0;
     
+}
+.RumDefaultState::after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    pointer-events: none; 
+    transition: height 0.5s ease;
+    background: linear-gradient(to top, #0D0D0D, rgba(0, 0, 0, 0)) 0% 0% no-repeat padding-box;
+    z-index: 0;
+    cursor: pointer;
+    z-index: 0;
+}
+#RumText
+{
+    position: absolute;
+    top: 2604px;
+    left: 681px;
+    width: 65px;
+    height: 41px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal medium 32px/41px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    z-index: 2;
+    cursor: pointer;
+    margin-top: 18px;
+}
+#RumText:hover
+{
+    top: 2584px;
+    left: 681px;
+    width: 65px;
+    height: 41px;
+    color: var(--unnamed-color-54b3a1);
+    font: normal normal medium 32px/41px Futura PT;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #54B3A1;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: all 1.0s ease;
+    opacity: 1;
+    z-index: 1;
+}
+.WhiskeyDefaultState
+{
+    position: absolute;
+    top: 2455px;
+    left: 975px;
+    width: 294px;
+    height: 190px;
+    background: transparent linear-gradient(180deg, #0C0C0C00 0%, #0C0C0C 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    background: transparent url('Home/493c17b7974cdd460537b39e1d890cc8.png') 0% 0% no-repeat padding-box;
+    transition: all 0.8s ease;
+    cursor: pointer;
+}
+.WhiskeyDefaultState:hover
+{
+    top: 2455px;
+    left: 975px;
+    width: 294px;
+    height: 180px;
+    opacity: 1;
+    border: 1px solid #54B3A1;
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+.WhiskeyDefaultState::after
+{
+    position: absolute;
+    content: '';  
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    pointer-events: none; 
+    transition: height 0.5s ease;
+    background: linear-gradient(to top, #0D0D0D, rgba(0, 0, 0, 0)) 0% 0% no-repeat padding-box;
+    z-index: 0;
+    cursor: pointer;
+    z-index: 0;
 
 }
+#WhiskeyText
+{
+    position: absolute;
+    top: 2604px;
+    left: 1005px;
+    width: 128px;
+    height: 41px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal medium 32px/41px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 1;
+    margin-top: 18px;
+}
+#WhiskeyText:hover
+{
+    top: 2584px;
+    left: 1005px;
+    width: 128px;
+    height: 41px;
+    color: var(--unnamed-color-54b3a1);
+    text-align: left;
+    font: normal normal medium 32px/41px Futura PT;
+    letter-spacing: 0px;
+    color: #54B3A1;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap;
+    transition: all 1.0s ease;
+}
+.GinDefaultState
+{
+    position: absolute;
+    top: 2455px;
+    left: 1299px;
+    width: 294px;
+    height: 190px;
+    background: transparent linear-gradient(180deg, #0C0C0C00 0%, #0C0C0C 100%) 0% 0% no-repeat padding-box;
+    background: transparent url('Home/9a04c6802e490a222535a0e02a6955e8.png') 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    transition: all 0.8s ease;
+    cursor: pointer;
+
+}
+.GinDefaultState:hover
+{
+    top: 2455px;
+    left: 1299px;
+    width: 294px;
+    height: 180px;
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.05);      
+}
+.GinDefaultState::after
+{
+    position: absolute;
+    content: '';  
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    pointer-events: none; 
+    transition: height 0.5s ease;
+    background: linear-gradient(to top, #0D0D0D, rgba(0, 0, 0, 0)) 0% 0% no-repeat padding-box;
+    z-index: 0;
+    cursor: pointer;
+    z-index: 0;
+}
+#GinText
+{
+    position: absolute;
+    top: 2604px;
+    left: 1329px;
+    width: 56px;
+    height: 41px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal medium 32px/41px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 18px;
+}
+#GinText:hover{
+    top: 2584px;
+    left: 1329px;
+    width: 56px;
+    height: 41px;
+    color: var(--unnamed-color-54b3a1);
+    text-align: left;
+    font: normal normal medium 32px/41px Futura PT;
+    letter-spacing: 0px;
+    color: #54B3A1;
+    text-transform: uppercase;
+    transition: all 1.0s ease;
+    opacity: 1;
+}
+.VodkaDefaultState
+{
+    position: absolute;
+    top: 2665px;
+    left: 327px;
+    width: 294px;
+    height: 190px;
+    background: transparent linear-gradient(180deg, #0C0C0C00 0%, #0C0C0C 100%) 0% 0% no-repeat padding-box;
+    background: transparent url('Home/vodka.png') 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    transition: all 0.8s ease;
+    cursor: pointer;
+}
+.VodkaDefaultState:hover
+{
+    top: 2665px;
+    left: 327px;
+    width: 294px;
+    height: 180px;
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.05);
+}
+.VodkaDefaultState::after
+{
+    position: absolute;
+    content: '';  
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    pointer-events: none; 
+    transition: height 0.5s ease;
+    background: linear-gradient(to top, #0D0D0D, rgba(0, 0, 0, 0)) 0% 0% no-repeat padding-box;
+    z-index: 0;
+    cursor: pointer;
+    z-index: 0;
+}
+#VodkaText
+{
+    position: absolute;
+    top: 2814px;
+    left: 357px;
+    width: 104px;
+    height: 41px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal medium 32px/41px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 18px;
+}
+#VodkaText:hover
+{
+    top: 2794px;
+    left: 357px;
+    width: 104px;
+    height: 41px;
+    color: var(--unnamed-color-54b3a1);
+    text-align: left;
+    font: normal normal medium 32px/41px Futura PT;
+    letter-spacing: 0px;
+    color: #54B3A1;
+    text-transform: uppercase;
+    opacity: 1;
+    transition: all 1.0s ease;
+}
+.LiquorDefaultState
+{
+    position: absolute;
+    top: 2665px;
+    left: 651px;
+    width: 294px;
+    height: 190px;
+    background: transparent linear-gradient(180deg, #0C0C0C00 0%, #0C0C0C 100%) 0% 0% no-repeat padding-box;
+    background: transparent url('Home/1d6f0d8b99272240de995952a90c133b.png') 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+.LiquorDefaultState:hover
+{
+    top: 2665px;
+    left: 651px;
+    width: 294px;
+    height: 180px;
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.LiquorDefaultState::after
+{
+    position: absolute;
+    content: '';  
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    pointer-events: none; 
+    transition: height 0.5s ease;
+    background: linear-gradient(to top, #0D0D0D, rgba(0, 0, 0, 0)) 0% 0% no-repeat padding-box;
+    z-index: 0;
+    cursor: pointer;
+    z-index: 0;
+
+}
+#LiquorText
+{
+    position: absolute;
+    top: 2814px;
+    left: 681px;
+    width: 110px;
+    height: 41px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal medium 32px/41px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-top: 18px;
+    transition: all 1.0s ease;
+    cursor: pointer;
+}
+#LiquorText:hover
+{
+    top: 2794px;
+    left: 681px;
+    width: 110px;
+    height: 41px;
+    color: var(--unnamed-color-54b3a1);
+    text-align: left;
+    font: normal normal medium 32px/41px Futura PT;
+    letter-spacing: 0px;
+    color: #54B3A1;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.BitterDefaultState
+{
+    position: absolute;
+    top: 2665px;
+    left: 975px;
+    width: 294px;
+    height: 190px;
+    background: transparent linear-gradient(180deg, #0C0C0C00 0%, #0C0C0C 100%) 0% 0% no-repeat padding-box;
+    background: transparent url('Home/3926417fdc1c52c961226e5b51539ef4.png') 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    transition: all 0.8s ease;
+    cursor: pointer;
+}
+.BitterDefaultState:hover
+{
+    top: 2665px;
+    left: 975px;
+    width: 294px;
+    height: 180px;
+    opacity: 1;
+    transform: scale(1.05);
+}
+.BitterDefaultState::after
+{
+    position: absolute;
+    content: '';  
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    pointer-events: none; 
+    transition: height 0.5s ease;
+    background: linear-gradient(to top, #0D0D0D, rgba(0, 0, 0, 0)) 0% 0% no-repeat padding-box;
+    z-index: 0;
+    cursor: pointer;
+    z-index: 0;
+}
+#BitterText
+{
+    position: absolute;
+    top: 2814px;
+    left: 1005px;
+    width: 87px;
+    height: 41px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal medium 32px/41px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 18px;
+    transition: all 1.0s ease;
+}
+#BitterText:hover
+{
+    top: 2794px;
+    left: 1005px;
+    width: 87px;
+    height: 41px;
+    color: var(--unnamed-color-54b3a1);
+    text-align: left;
+    font: normal normal medium 32px/41px Futura PT;
+    letter-spacing: 0px;
+    color: #54B3A1;
+    text-transform: uppercase;
+    opacity: 1;
+
+}
+
