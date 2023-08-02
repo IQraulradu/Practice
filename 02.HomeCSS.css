@@ -1,4 +1,3 @@
-
 *{
     margin: 0px;
     padding: 0px;
@@ -1448,22 +1447,81 @@
     transform-origin: left; 
 }
 
-.BlogPost
+.BlogPostStandard
 {
     position: absolute;
     top: 3544px;
     left: 327px;
     width: 402px;
+    height: 490px;
+    opacity: 1;
+}
+.BlogPost
+{
+    top: 3544px;
+    left: 327px;
+    width: 402px;
     height: 273px;
-    background: transparent linear-gradient(180deg, #00000000 0%, var(--unnamed-color-000000) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #00000000 0%, var(--unnamed-color-000000) 100%) 10% 0% no-repeat padding-box;
     background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+    background: transparent url('Home/53b2b5c1433be3b14a833098152b2789.png');
     opacity: 1;
     box-sizing: border-box;
     overflow: hidden;
     cursor: pointer;
-    
+    transform: all 0.8s;
 }
-.BorderDefault
+.BlogPost:hover
+{
+    transform: scale(1.01);
+}
+.BlogPostStandard::after
+{
+    position: absolute;
+    content:'';
+    top: 250px;  
+    bottom: 0;
+    left: -2.5px;
+    width: 101%;
+    height: 5%;
+    pointer-events: none; 
+    transition: height 0.5s ease;
+    background: transparent linear-gradient(180deg, #00000000 0%, var(--unnamed-color-000000) 100%) 10% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+    z-index: 0;
+    cursor: pointer;
+
+}
+.DateBlog
+{
+    top: 3799px;
+    left: 357px;
+    width: 342px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.BlogPostWhite
+{
+    top: 3817px;
+    left: 327px;
+    width: 402px;
+    height: 217px;
+    background: var(--unnamed-color-f5f5f5) 0% 0% no-repeat padding-box;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+#BroderStandard
 {
     position: absolute;
     top: 3554px;
@@ -1473,19 +1531,20 @@
     border: 2px solid var(--unnamed-color-0d0d0d);
     border: 2px solid #0D0D0D;
     opacity: 1;
+    cursor: pointer;
+    z-index: 0;
 }
-#SpecialElement:hover{
+#BroderStandard:hover
+{
     top: 3554px;
     left: 337px;
     width: 382px;
     height: 470px;
-    border: 2px solid var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;;
+    border: 2px solid var(--unnamed-color-54b3a1);
     border: 2px solid #54B3A1;
     opacity: 1;
-   
 }
-.LittleBorderDefault
-{
+#LittleBorder{
     position: absolute;
     top: 3902px;
     left: 357px;
@@ -1494,9 +1553,10 @@
     background: var(--unnamed-color-0d0d0d) 0% 0% no-repeat padding-box;
     background: #0D0D0D 0% 0% no-repeat padding-box;
     opacity: 1;
+    cursor: pointer;
     z-index: 1;
 }
-#LittleSpecialElement:hover
+#LittleBorder:hover
 {
     top: 3902px;
     left: 357px;
@@ -1504,56 +1564,8 @@
     height: 2px;
     background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
     background: #54B3A1 0% 0% no-repeat padding-box;
-    opacity: 1;;
-}
-
-.BlogPostPhoto
-{
-    position: absolute;
-    top: 3544px;
-    left: 327px;
-    width: 402px;
-    height: 273px;
-    background: transparent linear-gradient(180deg, #00000000 0%, var(--unnamed-color-000000) 100%) 0% 0% no-repeat padding-box;
-    background: transparent linear-gradient(180deg, #00000000 0%,#000000 100%) 0% 0% no-repeat padding-box;
-    background: transparent url('Home/53b2b5c1433be3b14a833098152b2789.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    transition: all 0.8s ease;
-}
-
-.BlogPostWhite
-{
-    position: absolute;
-    top: 3817px;
-    left: 327px;
-    width: 402px;
-    height: 217px;
-    background: var(--unnamed-color-f5f5f5) 0% 0% no-repeat padding-box;
-    background: #F5F5F5 0% 0% no-repeat padding-box;
     opacity: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .DateBlog
 {
@@ -1570,6 +1582,7 @@
     text-transform: uppercase;
     opacity: 1;
 }
+
 .WhiskeyBombText
 {
     position: absolute;
