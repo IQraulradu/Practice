@@ -2068,7 +2068,6 @@
     opacity: 1;
     transition:all 2s ease-out;
 }
-
 .BtnGroup47Text
 {
     top: 4109px;
@@ -2122,7 +2121,6 @@
     width: 1920px;
     height: 1267px;
     opacity: 1;
-    border: 1px solid red;
 }
 .Rectangle31Down{
     position: absolute;
@@ -2247,4 +2245,168 @@
     transform: scaleY(1.0);
     margin-top: 112px;
     margin-left:15px; 
+}
+.Photo1BrandX
+{
+    position: absolute;
+    top: 4833px;
+    left: 0px;
+    width: 297px;
+    height: 618px;
+    background: transparent url('Home/2a01e9e078b39984f4024e98078675df_Image_minify.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.Photo2Brand
+{
+    position: absolute;
+    top: 4833px;
+    left: 327px;
+    width: 294px;
+    height: 294px;
+    background: transparent url('Home/708159221f73aaa3cb608cb9bed13a23_Image_minify.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.Photo3Brand
+{
+    position: absolute;
+    top: 4833px;
+    left: 651px;
+    width: 294px;
+    height: 294px;
+    background: transparent url('Home/0da95bf865c8c7eda3aff6680cd1834c_Image_minify.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.Photo4Brand
+{
+    position: absolute;
+    top: 4833px;
+    left: 975px;
+    width: 294px;
+    height: 294px;
+    background: transparent url('Home/7c66a7e399b78b557b20ac0b91c4f43d_Image_minify.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.Photo5Brand
+{
+    position: absolute;
+    top: 4833px;
+    left: 1299px;
+    width: 294px;
+    height: 294px;
+    background: transparent url('Home/20c32646172e89782b3e4a15378631ba_Image_minify.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+.Photo6BrandY
+{
+    position: absolute;
+    top: 4833px;
+    left: 1623px;
+    width: 297px;
+    height: 618px;
+    background: transparent url('Home/6daaeafa5b17e97778c1300fd6f80d4e_Image_minify.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.Photo7Brand
+{
+    position: absolute;
+    top: 5157px;
+    left: 327px;
+    width: 294px;
+    height: 294px;
+    background: transparent url('Home/638cd3b64701782a6a1e15a4408da40c_Image_minify.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.Photo8Brand
+{
+    position: absolute;
+    top: 5157px;
+    left: 651px;
+    width: 294px;
+    height: 294px;
+    background: transparent url('Home/4c9391df250bfd3321bef644dca4ab85_Image_minify.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.Photo9Brand
+{
+    position: absolute;
+    top: 5157px;
+    left: 975px;
+    width: 294px;
+    height: 294px;
+    background: transparent url('Home/e3c1d3e4b161dffbb0cfc9d19aaac78c_Image_minify.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.Photo10Brand
+{
+    position: absolute;
+    top: 5157px;
+    left: 1299px;
+    width: 294px;
+    height: 294px;
+    background: transparent url('Home/ad9c7e55388608d74f668beec0191d67_Image_minify.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.BtnBrandGroup
+{
+    position: absolute;
+    top: 5511px;
+    left: 799px;
+    width: 322px;
+    height: 50px;
+    background: var(--unnamed-color-f34213) 0% 0% no-repeat padding-box;
+    background: #F34213 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 27px;
+    opacity: 1;
+    white-space:nowrap;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.1s ease-in; 
+    z-index: 1;
+}
+.BtnBrandGroup:hover
+{
+    top: 5511px;
+    left: 799px;
+    width: 322px;
+    height: 50px;
+    background: var(--unnamed-color-d94016) 0% 0% no-repeat padding-box;
+    background: #D94016 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 27px;
+    opacity: 1;
+}
+.BtnBrandGroupText
+{
+    top: 5526px;
+    left: 829px;
+    width: 262px;
+    height: 20px;
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
 }
