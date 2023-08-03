@@ -892,7 +892,6 @@
     z-index: 1;
     cursor: pointer;
     transform: scale(1.05);
-    cursor: pointer;
     z-index: 0;
     
 }
@@ -2029,5 +2028,89 @@
     height: 25px;
     background: transparent url('Home/Linkedin-1.png') 0% 0% no-repeat padding-box;
     opacity: 1;
+}
 
+.BtnGroup47
+{
+    position: absolute;
+    top: 4094px;
+    left: 763px;
+    width: 394px;
+    height: 50px;
+    background: var(--unnamed-color-f34213) 0% 0% no-repeat padding-box;
+    background: #F34213 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 27px;
+    opacity: 1;
+    white-space:nowrap;
+    box-sizing: border-box;
+    display: block;
+    cursor: pointer;
+    transition: all 0.5s ease; 
+    z-index: 1;
+}
+.BtnGroup47:hover
+{
+    display: none;
+}
+.TextBtnGroup47
+{
+    top: 4109px;
+    left: 793px;
+    width: 334px;
+    height: 20px;
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    transition:all 2s ease-out;
+}
+
+.BtnGroup47Text
+{
+    top: 4109px;
+    left: 793px;
+    width: 334px;
+    height: 20px;
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    cursor: pointer;
+}
+.BtnSecoundary
+{
+    position: absolute;
+    top: 4094px;
+    left: 788px;
+    width: 344px;
+    height: 50px;
+    background: var(--unnamed-color-d94016) 0% 0% no-repeat padding-box;
+    background: #D94016 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 27px;
+    opacity: 1;
+    cursor: pointer;
+    display: block;
+    transition: all 0.5s ease;
+}
+.BtnGroup47TextSecondary
+{
+    top: 4109px;
+    left: 818px;
+    width: 284px;
+    height: 20px;
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
 }
