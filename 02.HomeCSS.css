@@ -1306,7 +1306,6 @@
     left: 327px;
     width: 1266px;
     height: 1139px;
-    border:1px solid blueviolet;
     opacity: 1;
 }
 .Rectangle31
@@ -1581,6 +1580,7 @@
     color: #F5F5F5;
     text-transform: uppercase;
     opacity: 1;
+    cursor: pointer;
 }
 
 .WhiskeyBombText
@@ -1597,6 +1597,7 @@
     color: #0D0D0D;
     text-transform: uppercase;
     opacity: 1;
+    cursor: pointer;
 }
 .SocialMediaBlog
 {
@@ -1611,6 +1612,7 @@
     white-space: nowrap;
     color: grey 0% 0% no-repeat padding-box;
     z-index: 1;
+    cursor: pointer;
 }
 .FacebookBlogPost
 {
@@ -1651,6 +1653,381 @@
     font: normal normal normal 18px/24px Futura PT;
     letter-spacing: 0px;
     color: #333333;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.BlogPostMiddle
+{
+    position: absolute;
+    top: 3544px;
+    left: 759px;
+    width: 402px;
+    height: 490px;
+    opacity: 1;
+}
+.BlogPostMiddle::after
+{
+    position: absolute;
+    content:'';
+    top: 250px;  
+    bottom: 0;
+    left: -2.5px;
+    width: 101%;
+    height: 5%;
+    pointer-events: none; 
+    transition: height 0.5s ease;
+    background: transparent linear-gradient(180deg, #00000000 0%, var(--unnamed-color-000000) 100%) 10% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+    z-index: 0;
+    cursor: pointer;
+}
+.BlogPhotoMiddle
+{
+    top: 3544px;
+    left: 759px;
+    width: 402px;
+    height: 273px;
+    background: transparent linear-gradient(180deg, #00000000 0%, var(--unnamed-color-000000) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+    background: transparent url('Home/1b6433634ad28fc5d76069027821da50.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+    transform: all 0.8s;
+    cursor: pointer;
+}
+.BlogPhotoMiddle:hover
+{
+    transform: scale(1.01);
+}
+.BlogPostWhiteMiddle
+{
+    top: 3817px;
+    left: 759px;
+    width: 402px;
+    height: 217px;
+    background: var(--unnamed-color-f5f5f5) 0% 0% no-repeat padding-box;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    cursor: pointer;
+}
+.BorderStandardMiddle
+{
+    position: absolute;
+    top: 3554px;
+    left: 769px;
+    width: 382px;
+    height: 470px;
+    border: 2px solid var(--unnamed-color-0d0d0d);
+    border: 2px solid #0D0D0D;
+    opacity: 1;
+    cursor: pointer;
+}
+.BorderStandardMiddle:hover
+{
+    top: 3554px;
+    left: 769px;
+    width: 382px;
+    height: 470px;
+    border: 2px solid var(--unnamed-color-54b3a1);
+    border: 2px solid #54B3A1;
+    opacity: 1;
+
+}
+.LittleBorderMiddle
+{
+    position: absolute;
+    top: 3902px;
+    left: 789px;
+    width: 32px;
+    height: 2px;
+    background: var(--unnamed-color-0d0d0d) 0% 0% no-repeat padding-box;
+    background: #0D0D0D 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+.LittleBorderMiddle:hover
+{
+    top: 3902px;
+    left: 789px;
+    width: 32px;
+    height: 2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.DateBlogMiddle
+{
+    position: absolute;
+    top: 3799px;
+    left: 789px;
+    width: 342px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    cursor: pointer;
+}
+.SecondAtomicMiddleText
+{
+    position: absolute;
+    top: 3837px;
+    left: 789px;
+    width: 220px;
+    height: 55px;
+    color: var(--unnamed-color-0d0d0d);
+    text-align: left;
+    font: normal normal normal 24px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #0D0D0D;
+    text-transform: uppercase;
+    opacity: 1;
+    cursor: pointer;
+   
+}
+.ShotsForEverybodyMiddle
+{
+    position: absolute;
+    top: 3924px;
+    left: 789px;
+    width: 342px;
+    height: 71px;
+    color: var(--unnamed-color-333333);
+    text-align: left;
+    font: normal normal normal 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+    cursor: pointer;
+}
+.SocialMediaBlogMiddle
+{
+    position: absolute;
+    top: 3842px;
+    left: 1039px;
+    width: 92px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    color: grey 0% 0% no-repeat padding-box;
+    z-index: 1;
+}
+.FacebookBlogPostMiddle
+{
+    top: 3842px;
+    left: 1039px;
+    width: 28px;
+    height: 25px;
+    background: transparent url('Home/Facebook-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.TwitterBlogPostMiddle
+{
+    top: 3842px;
+    left: 1073px;
+    width: 28px;
+    height: 25px;
+    background: transparent url('Home/Twitter-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.LinkedinBlogPostMiddle
+{
+    top: 3842px;
+    left: 1107px;
+    width: 28px;
+    height: 25px;
+    background: transparent url('Home/Linkedin-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.BlogPostRight
+{
+    position: absolute;
+    top: 3544px;
+    left: 1191px;
+    width: 402px;
+    height: 490px;
+    opacity: 1;
+}
+.BlogPostRight::after{
+    position: absolute;
+    content:'';
+    top: 250px;  
+    bottom: 0;
+    left: -2.5px;
+    width: 101%;
+    height: 5%;
+    pointer-events: none; 
+    transition: height 0.5s ease;
+    background: transparent linear-gradient(180deg, #00000000 0%, var(--unnamed-color-000000) 100%) 10% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+    z-index: 0;
+    cursor: pointer;
+}
+.BlogPhotoRight
+{
+    top: 3544px;
+    left: 1191px;
+    width: 402px;
+    height: 273px;
+    background: transparent linear-gradient(180deg, #00000000 0%, var(--unnamed-color-000000) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+    background: transparent url('Home/a87f4ce3d22fbd927d0903208e3199c2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    cursor: pointer;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: all 0.8s;
+}
+.BlogPhotoRight:hover
+{
+    transform: scale(1.01);
+}
+.BlogPostWhiteRight
+{
+    top: 3817px;
+    left: 1191px;
+    width: 402px;
+    height: 217px;
+    background: var(--unnamed-color-f5f5f5) 0% 0% no-repeat padding-box;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.BorderStandardRight
+{
+    position: absolute;
+    top: 3554px;
+    left: 1201px;
+    width: 382px;
+    height: 470px;
+    border: 2px solid var(--unnamed-color-0d0d0d);
+    border: 2px solid #0D0D0D;
+    opacity: 1;
+    cursor: pointer;
+}
+.BorderStandardRight:hover
+{
+    top: 3554px;
+    left: 1201px;
+    width: 382px;
+    height: 470px;
+    border: 2px solid var(--unnamed-color-54b3a1);
+    border: 2px solid #54B3A1;
+    opacity: 1;
+}
+.LittleBorderRight
+{
+    position: absolute;
+    top: 3902px;
+    left: 1221px;
+    width: 32px;
+    height: 2px;
+    background: var(--unnamed-color-0d0d0d) 0% 0% no-repeat padding-box;
+    background: #0D0D0D 0% 0% no-repeat padding-box;
+    opacity: 1;
+    cursor: pointer;
+}
+.LittleBorderRight:hover
+{
+    top: 3902px;
+    left: 1221px;
+    width: 32px;
+    height: 2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.DateBlogRight
+{
+    position: absolute;
+    top: 3799px;
+    left: 1221px;
+    width: 342px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    cursor: pointer;
+}
+.HeadshotPartyRightText
+{
+    position: absolute;
+    top: 3837px;
+    left: 1221px;
+    width: 220px;
+    height: 55px;
+    color: var(--unnamed-color-0d0d0d);
+    text-align: left;
+    font: normal normal normal 24px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #0D0D0D;
+    text-transform: uppercase;
+    opacity: 1;
+    cursor: pointer;
+}
+.ShotsForEverybodyRight
+{
+    position: absolute;
+    top: 3924px;
+    left: 1221px;
+    width: 342px;
+    height: 71px;
+    color: var(--unnamed-color-333333);
+    text-align: left;
+    font: normal normal normal 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+    cursor: pointer;
+}
+.SocialMediaBlogRight
+{
+    position: absolute;
+    top: 3842px;
+    left: 1471px;
+    width: 92px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.FacebookBlogPostRight
+{
+    top: 3842px;
+    left: 1471px;
+    width: 28px;
+    height: 25px;
+    background: transparent url('Home/Facebook-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.TwitterBlogPostRight
+{
+    top: 3842px;
+    left: 1505px;
+    width: 28px;
+    height: 25px;
+    background: transparent url('Home/Twitter-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.LinkedinBlogPostRight
+{
+    top: 3842px;
+    left: 1539px;
+    width: 28px;
+    height: 25px;
+    background: transparent url('Home/Linkedin-1.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 
 }
