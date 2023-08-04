@@ -2532,12 +2532,27 @@
     position: absolute;
     top: 6807px;
     left: 357px;
-    width: 149px;
+    width: 155px;
     height: 23px;
     opacity: 1;
-    border: 1px solid red;
     white-space: nowrap;
+    display:flex;
     justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.Component21-1:hover
+{
+    top: 6807px;
+    left: 357px;
+    width: 165px;
+    height: 23px;
+    color: var(--unnamed-color-54b3a1);
+    text-align: left;
+    font: normal normal medium 18px/24px Futura PT;
+    color: #54B3A1;
+    letter-spacing: 0px;
+    opacity: 1;
 }
 #Component21TextFind
 {
@@ -2553,14 +2568,37 @@
     color: #EAEAEA;
     opacity: 1;
 }
+#Component21TextFind:hover
+{
+    top: 6807px;
+    left: 357px;
+    width: 98px;
+    height: 23px;
+    color: var(--unnamed-color-54b3a1);
+    text-align: left;
+    font: normal normal medium 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #54B3A1;
+    opacity: 1;
+    
+}
 #PhotoGroup128
 {
-    position: absolute;
-    top: 6814px;
-    left: 465px;
+    top: 6810px;
+    left: 595px;
     width: 21px;
-    height: 11px;
+    height: 13px;
     background: transparent url('Home/Group\ 128-3.png') 0% 0% no-repeat padding-box;
     opacity: 1;
-    border: 1px solid yellow;
+    margin-top: 3px;
+}
+#PhotoGroup128:hover
+{  
+    top: 6814px;
+    left: 475px;
+    width: 21px;
+    height: 11px;
+    background: transparent url('Home/Group\ 267.png') 0% 0% no-repeat padding-box;
+    filter: invert(#54B3A1);
+    opacity: 1;
 }
