@@ -3022,3 +3022,14 @@
     opacity: 1;
     margin-top: 438px;
 }
+#WhiskeyWorldText
+{
+    color: var(--unnamed-color-54b3a1);
+    text-align: left;
+    font: normal normal medium 18px/24px Futura PT;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
