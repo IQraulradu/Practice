@@ -2418,7 +2418,6 @@
     width: 1265px;
     height: 1090px;
     opacity: 1;
-    border: 1px solid yellow;
 }
 .Rectangle142
 {
@@ -2551,10 +2550,10 @@
     text-align: left;
     font: normal normal medium 18px/24px Futura PT;
     color: #54B3A1;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     opacity: 1;
 }
-#Component21TextFind
+.Component21TextFind
 {
     top: 6807px;
     left: 357px;
@@ -2568,10 +2567,167 @@
     color: #EAEAEA;
     opacity: 1;
 }
-#Component21TextFind:hover
+.Component21TextFind:hover
 {
     top: 6807px;
     left: 357px;
+    width: 98px;
+    height: 23px;
+    color: var(--unnamed-color-54b3a1);
+    color: #54B3A1;
+    text-align: left;
+    font: normal normal medium 18px/24px Futura PT;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.PhotoGroup128
+{
+    top: 6810px;
+    left: 595px;
+    width: 21px;
+    height: 13px;
+    background: transparent url('Home/Group\ 128-3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 3px;
+}
+.PhotoGroup128:hover
+{  
+    background: transparent url('Home/Group\ 267.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 3px;
+}
+
+.Group227
+{
+    position: absolute;
+    top: 6301px;
+    left: 787px;
+    width: 345px;
+    height: 550px;
+    opacity: 1;
+}
+.Line12Middle
+{   
+    top: 6301px;
+    left: 787px;
+    width: 0px;
+    height: 550px;
+    border: 2px solid var(--unnamed-color-ffffff);
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    box-sizing: border-box;
+
+}
+.Group244Middle
+{
+    position: absolute;
+    top: 6318px;
+    left: 817px;
+    width: 315px;
+    height: 517px;
+    opacity: 1;
+}
+.PhotoGroup233Middle
+{
+    top: 6318px;
+    left: 817px;
+    width: 196px;
+    height: 205px;
+    background: transparent url('Home/Group\ 233.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-sizing: border-box;
+}
+.RetailTextMiddle
+{
+    position: absolute;
+    top: 6578px;
+    left: 817px;
+    width: 220px;
+    height: 41px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 32px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    
+}
+.Rectangle44Middle
+{
+    position: absolute;
+    top: 6619px;
+    left: 817px;
+    width: 32px;
+    height: 2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.WeZijnMiddleText
+{
+    position: absolute;
+    top: 6651px;
+    left: 817px;
+    width: 315px;
+    height: 131px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 24px/25px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    opacity: 1;
+}
+.Component21-2
+{
+    position: absolute;
+    top: 6812px;
+    left: 817px;
+    width: 155px;
+    height: 23px;
+    color: var(--unnamed-color-eaeaea);
+    text-align: left;
+    font: normal normal medium 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #EAEAEA;
+    opacity: 1;
+    white-space: nowrap;
+    display:flex;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.Component21-2:hover
+{
+    top: 6812px;
+    left: 817px;
+    width: 165px;
+    height: 23px;
+    color: var(--unnamed-color-54b3a1);
+    text-align: left;
+    font: normal normal medium 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #54B3A1;
+    opacity: 1;
+}
+.Component21-2TextFind
+{
+    top: 6812px;
+    left: 817px;
+    width: 98px;
+    height: 23px;
+    color: var(--unnamed-color-eaeaea);
+    text-align: left;
+    font: normal normal medium 18px/24px Futura PT;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #EAEAEA;
+    opacity: 1;
+}
+.Component21-2TextFind:hover
+{
+    top: 6812px;
+    left: 817px;
     width: 98px;
     height: 23px;
     color: var(--unnamed-color-54b3a1);
@@ -2580,25 +2736,181 @@
     letter-spacing: 0px;
     color: #54B3A1;
     opacity: 1;
-    
 }
-#PhotoGroup128
+.PhotoGroup128-2
 {
-    top: 6810px;
-    left: 595px;
-    width: 21px;
-    height: 13px;
-    background: transparent url('Home/Group\ 128-3.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    margin-top: 3px;
-}
-#PhotoGroup128:hover
-{  
-    top: 6814px;
-    left: 475px;
+    top: 6819px;
+    left: 925px;
     width: 21px;
     height: 11px;
-    background: transparent url('Home/Group\ 267.png') 0% 0% no-repeat padding-box;
-    filter: invert(#54B3A1);
+    background: transparent url('Home/Group 128-3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 3px;
+}
+.PhotoGroup128-2:hover
+{
+    top: 6819px;
+    left: 935px;
+    width: 21px;
+    height: 11px;
+    background: transparent url('Home/Group 267.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Group226Right
+{
+    position: absolute;
+    top: 6301px;
+    left: 1247px;
+    width: 345px;
+    height: 550px;
+    opacity: 1;
+}
+.Line12Right
+{
+    top: 6301px;
+    left: 1247px;
+    width: 0px;
+    height: 550px;
+    border: 2px solid var(--unnamed-color-ffffff);
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    box-sizing: border-box;
+}
+.Group244Right
+{
+    position: absolute;
+    top: 6318px;
+    left: 1277px;
+    width: 315px;
+    height: 517px;
+    opacity: 1;
+}
+.PhotoGroup232Right
+{
+    top: 6318px;
+    left: 1277px;
+    width: 195px;
+    height: 225px;
+    background: transparent url('Home/Group 232.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-sizing: border-box;
+}
+.EventsTextRight
+{
+    position: absolute;
+    top: 6578px;
+    left: 1277px;
+    width: 220px;
+    height: 41px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 32px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.Rectangle44Right
+{
+    position: absolute;
+    top: 6619px;
+    left: 1277px;
+    width: 32px;
+    height: 2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.EvenementenRightText
+{
+    position: absolute;
+    top: 6651px;
+    left: 1277px;
+    width: 315px;
+    height: 131px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 24px/25px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    opacity: 1;
+}
+.Component21-3
+{
+    position: absolute;
+    top: 6812px;
+    left: 1277px;
+    width: 155px;
+    height: 23px;
+    color: var(--unnamed-color-eaeaea);
+    text-align: left;
+    font: normal normal medium 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #EAEAEA;
+    opacity: 1;
+    cursor: pointer;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+}
+.Component21-3:hover
+{
+    top: 6812px;
+    left: 1277px;
+    width: 165px;
+    height: 23px;
+    color: var(--unnamed-color-54b3a1);
+    text-align: left;
+    font: normal normal medium 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #54B3A1;
+    opacity: 1;
+}
+.Component21-3TextFind
+{
+    top: 6812px;
+    left: 1277px;
+    width: 98px;
+    height: 23px;
+    color: var(--unnamed-color-eaeaea);
+    text-align: left;
+    font: normal normal medium 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #EAEAEA;
+    opacity: 1;
+    text-transform: uppercase;
+}
+.Component21-3TextFind:hover
+{
+    top: 6812px;
+    left: 1277px;
+    width: 98px;
+    height: 23px;
+    /* UI Properties */
+    color: var(--unnamed-color-54b3a1);
+    text-align: left;
+    font: normal normal medium 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #54B3A1;
+    opacity: 1;
+}
+.PhotoGroup128-3
+{
+    top: 6819px;
+    left: 1385px;
+    width: 21px;
+    height: 11px;
+    background: transparent url('Home/Group 128-3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 3px;
+}
+.PhotoGroup128-3:hover
+{
+    top: 6819px;
+    left: 1395px;
+    width: 21px;
+    height: 11px;
+    background: transparent url('Home/Group 267.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
