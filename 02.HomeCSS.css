@@ -2951,6 +2951,9 @@
     text-transform: uppercase;
     opacity: 1;
 }
+
+
+
 .Component20-1
 {
     position: absolute;
@@ -2981,10 +2984,11 @@
     width: 360px;
     height: 440px;
     border: 2px solid var(--unnamed-color-54b3a1);
-    border: 2px solid #54B3A1;
-    opacity: 0;
+    /* border: 2px solid #54B3A1; */
+    opacity: 1;
     display: flex;
     justify-content: space-between;
+    margin: 10px;
 }
 .Component20-1Hover:hover
 {
@@ -3005,13 +3009,15 @@
     height: 11px;
     transform: matrix(-1, 0, 0, -1, 0, 0);
     background: transparent url('Home/Group 267.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    opacity: 0;
     transform: rotate(360deg);
     margin: 10px;
     margin-top: 420px;
     /* margin-top: 415px;
     margin-left: 320px; */
+    transition: all 0.5 ease;
 }
+
 .Rectangle45
 {
     position: absolute;
@@ -3027,15 +3033,38 @@
 }
 #WhiskeyWorldText
 {
+  
     color: var(--unnamed-color-54b3a1);
     text-align: left;
     font: normal normal medium 18px/24px Futura PT;
     letter-spacing: 0px;
-    display: flex;
     text-transform: uppercase;
     color: #FFFFFF;
     opacity: 1;
     margin-top: 390px;
+    pointer-events: none;
     padding: 10px;
-
 }
+.Component20-1Hover:hover .Group128Arrow
+{
+    opacity: 1;
+}
+/* #WhiskeyWorldText:hover {
+    animation: textHoverAnimation 0.5s ease infinite alternate;
+}
+@keyframes textHoverAnimation
+{
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-10px);
+        opacity: 0.8;
+    }
+} */
+
+
+
+
+
