@@ -2923,7 +2923,6 @@
     width: 1263px;
     height: 872px;
     opacity: 1;
-    border: 1px solid yellow;
 }
 .Rectangle142
 {
@@ -2951,9 +2950,6 @@
     text-transform: uppercase;
     opacity: 1;
 }
-
-
-
 .Component20-1
 {
     position: absolute;
@@ -2963,7 +2959,6 @@
     height: 480px;
     background: transparent url('Home/whiskey_Image_minify.png') 0% 0% no-repeat padding-box;
     opacity: 1;
-    border: 1px solid red;
     cursor: pointer;
 }
 .Component20-1:hover
@@ -3029,7 +3024,7 @@
     background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
     background: #54B3A1 0% 0% no-repeat padding-box;
     opacity: 1;
-    margin-top: 438px;
+    margin-top: 437px;
 }
 #WhiskeyWorldText
 {
@@ -3063,7 +3058,188 @@
         opacity: 0.8;
     }
 } */
+.Component20-2
+{
+    position: absolute;
+    top: 7443px;
+    left: 760px;
+    width: 400px;
+    height: 480px;
+    background: transparent url('Home/whiskey_Image_minify-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    cursor: pointer;
+}
+.Component20-2:hover
+{
+    top: 7443px;
+    left: 760px;
+    width: 400px;
+    height: 480px;
+    background: transparent url('Home/whiskey_Image_minify-1@2x.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: 105%;
+}
+.Component20-2Hover
+{
+    top: 7463px;
+    left: 779px;
+    width: 360px;
+    height: 440px;
+    border: 2px solid var(--unnamed-color-54b3a1);
+    /* border: 2px solid #54B3A1; */
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 10px;
+}
+.Component20-2Hover:hover
+{
+    top: 7463px;
+    left: 779px;
+    width: 360px;
+    height: 440px;
+    border: 2px solid var(--unnamed-color-54b3a1);
+    border: 2px solid #54B3A1;
+    opacity: 1;
+    margin: 15px;
+}
+.Group128ArrowMiddle
+{
+    top: 7872px;
+    left: 1098px;
+    width: 21px;
+    height: 11px;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+    background: transparent url('Home/Group 267.png') 0% 0% no-repeat padding-box;
+    opacity: 0;
+    transform: rotate(360deg);
+    margin: 10px;
+    margin-top: 420px;
+    transition: all 0.5 ease;
+}
+#GinMomentText
+{
+    color: var(--unnamed-color-54b3a1);
+    text-align: left;
+    font: normal normal medium 18px/24px Futura PT;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 390px;
+    pointer-events: none;
+    padding: 10px;
+}
+.Component20-2Hover:hover .Group128ArrowMiddle
+{
+    opacity: 1;
+}
+.Rectangle45Middle
+{
+    position: absolute;
+    top: 7463px;
+    left: 780px;
+    width: 32px;
+    height: 2px;
+    box-sizing: border-box;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 437px;
+}
+.Component20-3
+{
+    position: absolute;
+    top: 7443px;
+    left: 1191px;
+    width: 400px;
+    height: 480px;
+    background: transparent url('Home/whiskey_Image_minify-2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    cursor: pointer;
+}
+.Component20-3:hover
+{
+    top: 7443px;
+    left: 1191px;
+    width: 400px;
+    height: 480px;
+    background: transparent url('Home/whiskey_Image_minify-2@2x.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size:105%;
+}
+.Component20-3Hover
+{
+    top: 7463px;
+    left: 1210px;
+    width: 360px;
+    height: 440px;
+    border: 2px solid var(--unnamed-color-54b3a1);
+    /* border: 2px solid #54B3A1; */
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin:10px;
 
+}
+.Component20-3Hover:hover
+{
+    top: 7463px;
+    left: 1210px;
+    width: 360px;
+    height: 440px;
+    border: 2px solid var(--unnamed-color-54b3a1);
+    border: 2px solid #54B3A1;
+    opacity: 1;
+    margin: 15px;
+}
+.Group128ArrowRight
+{
+    top: 7872px;
+    left: 1529px;
+    width: 21px;
+    height: 11px;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+    background: transparent url('Home/Group 267.png') 0% 0% no-repeat padding-box;
+    opacity: 0;
+    transform: rotate(360deg);
+    margin: 10px;
+    margin-top: 420px;
+    transition: all 0.5 ease;
+}
+#Connoisseur
+{
+  
+    color: var(--unnamed-color-54b3a1);
+    text-align: left;
+    font: normal normal medium 18px/24px Futura PT;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 408px;
+    pointer-events: none;
+    padding: 10px;
+}
+.Component20-3Hover:hover .Group128ArrowRight
+{
+    opacity: 1;
+}
+.Rectangle45Right
+{
+    position: absolute;
+    top: 7463px;
+    left: 1214px;
+    width: 32px;
+    height: 2px;
+    box-sizing: border-box;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 437px;
+}
 
 
 
