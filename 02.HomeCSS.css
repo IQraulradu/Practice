@@ -370,8 +370,6 @@
 
 }
 /*nav-bar end*/
-
-
 .Elipse1
 {
     position: absolute;
@@ -454,8 +452,6 @@
     z-index: 2;
     white-space: nowrap;
 }
-
-
 .RectangleColorInsideText
 {
     position:absolute;
@@ -468,7 +464,6 @@
     background: #54B3A1 0% 0% no-repeat padding-box;
     opacity: 1;
     transform: rotate(0);
-    z-index:0;
     margin-top: -15px;
     z-index: 1;
 }
@@ -485,6 +480,19 @@
     border-radius: 27px;
     opacity: 1;
     z-index: 1;
+    transition: all 0.5s ease;
+}
+.BtnGroup:hover
+{
+    top: 639px;
+    left: 327px;
+    width: 188px;
+    height: 50px;
+    background: var(--unnamed-color-d94016) 0% 0% no-repeat padding-box;
+    background: #D94016 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 27px;
+    opacity: 1;
 }
 #BtnInsideText
 {
