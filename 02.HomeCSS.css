@@ -371,6 +371,50 @@
 }
 /*nav-bar end*/
 
+
+.Elipse1
+{
+    position: absolute;
+    top: 577px;
+    left: 49px;
+    width: 14px;
+    height: 16px;
+    background: transparent url('Home/Path 55.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 1;
+}
+.Elipse1:hover
+{
+    top: 577px;
+    left: 49px;
+    width: 14px;
+    height: 16px;
+    filter: invert(60%) sepia(76%) saturate(252%) hue-rotate(119deg) brightness(150%) contrast(90%);
+    opacity: 1;
+    z-index: 1;
+}
+.Elipse2
+{
+    position: absolute;
+    top: 577px;
+    left: 1857px;
+    width: 14px;
+    height: 16px;
+    background: transparent url('Home/Path\ 55-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 1;
+}
+.Elipse2:hover
+{
+    top: 577px;
+    left: 1857px;
+    width: 14px;
+    height: 16px;
+    filter: invert(60%) sepia(76%) saturate(252%) hue-rotate(119deg) brightness(150%) contrast(90%);
+    opacity: 1;
+    z-index: 1;
+}
+
 .Group{
     position: absolute;
     top: 301px;
@@ -3240,7 +3284,222 @@
     opacity: 1;
     margin-top: 437px;
 }
-
-
-
+.FooterState
+{
+    position: absolute;
+    top: 8203px;
+    left: 0px;
+    width: 1920px;
+    height: 397px;
+    background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Logo-Vienna-DistibutionFooter
+{
+    position: absolute;
+    top: 8335px;
+    left: 327px;
+    width: 186px;
+    height: 162px;
+    background: transparent url('Home/Group 56.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Group54
+{
+    position: absolute;
+    top: 8354px;
+    left: 759px;
+    width: 190px;
+    height: 125px;
+    opacity: 1;
+    line-height: 35px;
+    list-style-type: none;
+    
+}
+#HomeFooter
+{
+    top: 8354px;
+    left: 759px;
+    width: 46px;
+    height: 20px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal medium 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    text-decoration: none;
+}
+#BrandsFooter
+{
+    top: 8389px;
+    left: 759px;
+    width: 190px;
+    height: 20px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal medium 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    text-decoration: none;
+    white-space: nowrap;
+}
+#BrandGalleryFooter
+{
+    top: 8424px;
+    left: 759px;
+    width: 124px;
+    height: 20px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal medium 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    text-decoration: none;
+}
+#NewsFooter
+{
+    top: 8459px;
+    left: 759px;
+    width: 45px;
+    height: 20px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal medium 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    text-decoration: none;
+}
+.Group55
+{
+    position: absolute;
+    top: 8354px;
+    left: 1191px;
+    width: 109px;
+    height: 125px;
+    opacity: 1;
+    line-height: 35px;
+    list-style: none;
+}
+#AboutFooter
+{
+    top: 8354px;
+    left: 1191px;
+    width: 51px;
+    height: 20px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal medium 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    text-decoration: none;
+}
+#ImpressumFooter
+{
+    top: 8389px;
+    left: 1191px;
+    width: 89px;
+    height: 20px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal medium 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    text-decoration: none;
+}
+#DataFooter
+{
+    top: 8424px;
+    left: 1191px;
+    width: 109px;
+    height: 20px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal medium 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    text-decoration: none;   
+}
+#ContactFooter
+{
+    top: 8459px;
+    left: 1191px;
+    width: 72px;
+    height: 20px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal medium 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    text-decoration: none;
+}
+.SocialMediaFooter
+{
+    position: absolute;
+    top: 8401px;
+    left: 1467px;
+    width: 126px;
+    height: 32px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+}
+#FacebookFooter
+{
+    top: 8401px;
+    left: 1467px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('Home/Facebook.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#InstagramFooter
+{
+    top: 8401px;
+    left: 1514px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('Home/Instagram.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#TwitterFooter
+{
+    top: 8401px;
+    left: 1561px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('Home/Twitter.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.AllRightsReserved
+{
+    position: absolute;
+    top: 8550px;
+    left: 759px;
+    width: 317px;
+    height: 20px;
+    color: var(--unnamed-color-ababab);
+    text-align: left;
+    font: normal normal normal 15px/20px Futura PT;
+    letter-spacing: 0px;
+    color: #ABABAB;
+    opacity: 1;
+    white-space: nowrap;
+}
 
