@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 3420px;
+    background: var(--unnamed-color-0d0d0d) 0% 0% no-repeat padding-box;
+    background: #0D0D0D 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#navbar
+{
+    position: absolute;
+    top: 0px;
+    left: -1px;
+    width: 1920px;
+    height: 100px;
+    background: var(--unnamed-color-0d0d0d) 0% 0% no-repeat padding-box;
+    background: #0D0D0D 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: 1px solid red;
+}
+#logo-vienna-distributionNavBarPhoto
+{
+    position: absolute;
+    top: 25px;
+    left: 324px;
+    width: 297px;
+    height: 50px;
+    background: transparent url('BrandWeWork/Group\ 57.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.nav-bar-menu
+{
+    position: absolute;
+    top: 42px;
+    left: 763px;
+    width: 837px;
+    height: 29px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-bar-menu a{
+    text-decoration: none;
+    white-space: nowrap;
+}
+#HomeLi
+{
+    top: 42px;
+    left: 763px;
+    width: 47px;
+    height: 22px;
+    color: var(--unnamed-color-ffffff);
+    text-align: right;
+    font: normal normal medium 17px/22px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+#BrandsLi{
+    top: 42px;
+    left: 845px;
+    width: 185px;
+    height: 22px;
+    color: var(--unnamed-color-ffffff);
+    text-align: right;
+    font: normal normal medium 17px/22px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+#BrandGalleryLi{
+    top: 42px;
+    left: 1065px;
+    width: 121px;
+    height: 22px;
+    color: var(--unnamed-color-ffffff);
+    text-align: right;
+    font: normal normal medium 17px/22px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+#NewsLi
+{
+    top: 42px;
+    left: 1221px;
+    width: 46px;
+    height: 22px;
+    color: var(--unnamed-color-ffffff);
+    text-align: right;
+    font: normal normal medium 17px/22px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+#AboutLi
+{
+    top: 42px;
+    left: 1302px;
+    width: 75px;
+    height: 22px;
+    color: var(--unnamed-color-ffffff);
+    text-align: right;
+    font: normal normal medium 17px/22px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+#ContactLi
+{
+    top: 42px;
+    left: 1412px;
+    width: 72px;
+    height: 22px;
+    color: var(--unnamed-color-ffffff);
+    text-align: right;
+    font: normal normal medium 17px/22px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.SocialMediaNav-bar
+{
+    top: 46px;
+    left: 1519px;
+    width: 81px;
+    height: 16px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+}
+#FacebookLi
+{
+    top: 46px;
+    left: 1519px;
+    width: 8px;
+    height: 16px;
+    background: transparent url('BrandWeWork/Facebook-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#InstagramLi
+{
+    top: 46px;
+    left: 1547px;
+    width: 16px;
+    height: 16px;
+    background: transparent url('BrandWeWork/Instagram-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#TwitterLi
+{
+    top: 47px;
+    left: 1583px;
+    width: 17px;
+    height: 14px;
+    background: transparent url('BrandWeWork/Twitter-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
