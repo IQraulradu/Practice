@@ -21,7 +21,6 @@ body{
     background: var(--unnamed-color-0d0d0d) 0% 0% no-repeat padding-box;
     background: #0D0D0D 0% 0% no-repeat padding-box;
     opacity: 1;
-    border: 1px solid red;
 }
 #logo-vienna-distributionNavBarPhoto
 {
@@ -288,4 +287,283 @@ body{
     height: 14px;
     background: transparent url('BrandWeWork/Twitter-1.png') 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+.Group62
+{
+    position: absolute;
+    top: 170px;
+    left: 654px;
+    width: 613px;
+    height: 30px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border: 1px solid rgb(116, 115, 115);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.Group62 a{
+    text-decoration: none;
+    white-space: nowrap;
+}
+#AllLi
+{
+    top: 170px;
+    left: 654px;
+    width: 19px;
+    height: 23px;
+    /* UI Properties */
+    color: var(--unnamed-color-54b3a1);
+    text-align: right;
+    text-transform: uppercase;
+    font: normal normal normal 18px/23px Futura PT;
+    letter-spacing: 0px;
+    color: #54B3A1;
+    opacity: 1;
+}
+#Rectangle12
+{
+    position: absolute;
+    top: 200px;
+    left: 654px;
+    width: 19px;
+    height: 2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 1;
+}
+/*@keyframes*/
+#BaijuLi
+{
+    top: 170px;
+    left: 725px;
+    width: 35px;
+    height: 23px;
+    color: var(--unnamed-color-ffffff);
+    text-align: right;
+    font: normal normal normal 18px/23px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+#BaijuLi::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 36px;
+    margin-left:-18px;
+    bottom: -2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 0; 
+    pointer-events: none;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: left;
+    transition: all 0.5s ease;
+}
+#BaijuLi:hover::after,
+#BaijuLi:focus::after {
+  opacity: 1;
+  transform: translateX(-50%) scaleX(1); 
+}
+#RumLi
+{
+    top: 170px;
+    left: 805px;
+    width: 29px;
+    height: 23px;
+    color: var(--unnamed-color-ffffff);
+    text-align: right;
+    font: normal normal normal 18px/23px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+#RumLi::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 30px;
+    margin-left:-15px;
+    bottom: -2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 0; 
+    pointer-events: none;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: left;
+    transition: all 0.5s ease;
+}
+#RumLi:hover::after,
+#RumLi:focus::after {
+  opacity: 1;
+  transform: translateX(-50%) scaleX(1); 
+}
+#WhiskeyLi
+{
+    top: 170px;
+    left: 879px;
+    width: 59px;
+    height: 23px;
+    color: var(--unnamed-color-ffffff);
+    text-align: right;
+    font: normal normal normal 18px/23px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+#WhiskeyLi::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 60px;
+    margin-left: -30px;
+    bottom: -2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 0; 
+    pointer-events: none;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+    transition: all 0.5s ease;
+}
+#WhiskeyLi:hover::after,
+#WhiskeyLi:focus::after {
+  opacity: 1;
+  transform: translateX(-50%) scaleX(1); 
+}
+#GinLi
+{
+    top: 170px;
+    left: 983px;
+    width: 26px;
+    height: 23px;
+    color: var(--unnamed-color-ffffff);
+    text-align: right;
+    font: normal normal normal 18px/23px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+#GinLi::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 28px;
+    margin-left: -10px;
+    bottom: -2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 0; 
+    pointer-events: none;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: left;
+    transition: all 0.5s ease;
+}
+#GinLi:hover::after,
+#GinLi:focus::after {
+  opacity: 1;
+  transform: translateX(-50%) scaleX(1); 
+}
+#VodkaLi
+{
+    top: 170px;
+    left: 1054px;
+    width: 45px;
+    height: 23px;
+    color: var(--unnamed-color-ffffff);
+    text-align: right;
+    font: normal normal normal 18px/23px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+#VodkaLi::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 45px;
+    margin-left: -20px;
+    bottom: -2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 0; 
+    pointer-events: none;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: left;
+    transition: all 0.5s ease;
+}
+#VodkaLi:hover::after,
+#VodkaLi:focus::after {
+  opacity: 1;
+  transform: translateX(-50%) scaleX(1); 
+}
+#LiquarLi
+{
+    top: 170px;
+    left: 1144px;
+    width: 43px;
+    height: 23px;
+    color: var(--unnamed-color-ffffff);
+    text-align: right;
+    font: normal normal normal 18px/23px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+#LiquarLi::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 45px;
+    margin-left: -20px;
+    bottom: -2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 0; 
+    pointer-events: none;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: left;
+    transition: all 0.5s ease;
+}
+#LiquarLi:hover::after,
+#LiquarLi:focus::after {
+  opacity: 1;
+  transform: translateX(-50%) scaleX(1); 
+}
+#BitterLi
+{
+    top: 170px;
+    left: 1232px;
+    width: 35px;
+    height: 23px;
+    color: var(--unnamed-color-ffffff);
+    text-align: right;
+    font: normal normal normal 18px/23px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+#BitterLi::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 35px;
+    margin-left: -17px;
+    bottom: -2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 0; 
+    pointer-events: none;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: left;
+    transition: all 0.5s ease;
+}
+#BitterLi:hover::after,
+#BitterLi:focus::after {
+  opacity: 1;
+  transform: translateX(-50%) scaleX(1); 
 }
