@@ -567,3 +567,13 @@ body{
   opacity: 1;
   transform: translateX(-50%) scaleX(1); 
 }
+.Rectangle-Grid
+{
+    position: absolute;
+    top: 275px;
+    left: 327px;
+    width: 1267px;
+    height: 2481px;
+    opacity: 1;
+    border: 1px solid yellow;
+}
