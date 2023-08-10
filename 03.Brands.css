@@ -575,7 +575,7 @@ body{
     width: 1267px;
     height: 2481px;
     opacity: 1;
-    border: 1px solid yellow;
+
 }
 .Group64Crystal
 {
@@ -1688,7 +1688,6 @@ body{
     width: 250px;
     height: 260px;
     opacity: 1;
-    border: 1px solid #54B3A1;
 }
 .WhitleyPhoto
 {
@@ -1724,6 +1723,53 @@ body{
     color: var(--unnamed-color-ababab);
     text-align: center;
     font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Starward
+{
+    position: absolute;
+    top: 2464px;
+    left: 327px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+}
+.StarwardPhoto
+{
+    top: 2464px;
+    left: 352px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/98dcca13836a767357a4fd73e8fd4b92.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.StarwardText
+{
+    top: 2664px;
+    left: 327px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.StarwardBottomText
+{
+    top: 2692px;
+    left: 327px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 12.5px/15px Futura PT;
     letter-spacing: -0.13px;
     color: #ABABAB;
     opacity: 1;
