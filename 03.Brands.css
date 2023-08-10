@@ -1784,7 +1784,6 @@ body{
     background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 1;
-    border: 1px solid #54B3A1;
 }
 .Logo-vienna-distribution
 {
@@ -1858,6 +1857,33 @@ body{
     width: 126px;
     height: 32px;
     opacity: 1;
-    border: 1px solid #ABABAB;
-
+    display: flex;
+    justify-content: space-between;
+}
+.Facebook-FooterRight
+{
+    top: 3221px;
+    left: 1467px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('BrandWeWork/Facebook.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Instagram-FooterRight
+{
+    top: 3221px;
+    left: 1514px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('BrandWeWork/Instagram.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Twitter-FooterRight
+{
+    top: 3221px;
+    left: 1561px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('BrandWeWork/Twitter.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
