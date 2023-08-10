@@ -1496,7 +1496,7 @@ body{
     width: 250px;
     height: 260px;
     opacity: 1;
-    border: 1px solid #54B3A1;
+   
 }
 .MarsPhoto
 {
@@ -1535,4 +1535,196 @@ body{
     letter-spacing: -0.13px;
     color: #ABABAB;
     opacity: 1;
-    }
+}
+.Group64Silent
+{
+    position: absolute;
+    top: 2099px;
+    left: 327px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+   
+}
+.SilentPhoto
+{
+    top: 2099px;
+    left: 352px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/da43f9e8b2a56d4841de4207fe43cf4f.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.SilentText
+{
+    top: 2299px;
+    left: 327px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.SilentBottomText
+{
+    top: 2327px;
+    left: 327px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Signal
+{
+    position: absolute;
+    top: 2099px;
+    left: 666px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+    
+}
+.SignalPhoto
+{
+    top: 2099px;
+    left: 691px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/8907b3329f72020cd4a18ee7a5fc6b97.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.SignalText
+{
+    top: 2299px;
+    left: 666px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.SignalBottomText
+{
+    top: 2327px;
+    left: 666px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Tarquin
+{
+    position: absolute;
+    top: 2099px;
+    left: 1005px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+    
+}
+.TarquinPhoto
+{
+    top: 2099px;
+    left: 1030px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/c7be2ff72d8b2ff0a5df6da2f859cf75.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.TarquinText
+{
+    top: 2299px;
+    left: 1005px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.TarquinBottomText
+{
+    top: 2327px;
+    left: 1005px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Whitley
+{
+    position: absolute;
+    top: 2099px;
+    left: 1344px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+    border: 1px solid #54B3A1;
+}
+.WhitleyPhoto
+{
+    top: 2099px;
+    left: 1369px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/c0c1c0f132a9145051a906508298ef5e.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.WhitleyText
+{
+    top: 2299px;
+    left: 1344px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.WhitleyBottomText
+{
+    top: 2327px;
+    left: 1344px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
