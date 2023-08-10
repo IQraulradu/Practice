@@ -577,7 +577,7 @@ body{
     opacity: 1;
     border: 1px solid yellow;
 }
-.Group64
+.Group64Crystal
 {
     position: absolute;
     top: 274px;
@@ -585,6 +585,188 @@ body{
     width: 250px;
     height: 260px;
     opacity: 1;
-    border: 1px solid red;
+}
+.CrystalHeadPhoto
+{
+    top: 274px;
+    left: 352px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/e8e21bdd9b0b9c4f9852ae139309eaec.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.CrystalHeadText
+{
+    top: 474px;
+    left: 327px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.CrystalHeadBottomText
+{
+    top: 502px;
+    left: 327px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
 
+}
+.Group64Tom
+{
+    position: absolute;
+    top: 274px;
+    left: 666px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+}
+.TomFinlandPhoto
+{
+    top: 274px;
+    left: 691px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/0cd93331c98fb35a5b95430aa52d39b3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.TomFinlandText
+{
+    top: 474px;
+    left: 666px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.TomFinlandBottomText
+{
+    top: 502px;
+    left: 666px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Moutai
+{
+    position: absolute;
+    top: 274px;
+    left: 1005px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+}
+.MoutaiPhoto
+{
+    top: 274px;
+    left: 1030px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/4a8af38bb503b34cb526d489c8401466.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.MoutaiText
+{
+    top: 474px;
+    left: 1005px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.MoutaiBottomText
+{
+    top: 502px;
+    left: 1005px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Sonnema
+{
+    position: absolute;
+    top: 274px;
+    left: 1344px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+}
+.SonnemaPhoto
+{
+    top: 274px;
+    left: 1369px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/87bd60a5f550e92294556b7f48bd5c6f.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.SonnemaText
+{
+    top: 474px;
+    left: 1344px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.SonnemaBottomText
+{
+    top: 502px;
+    left: 1344px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1; 
+}
+#SonnemaTxt
+{
+   margin:-3.3px;
 }
