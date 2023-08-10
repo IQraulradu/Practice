@@ -1823,3 +1823,41 @@ body{
     white-space: nowrap;
     text-decoration: none;
 }
+.Group54Center
+{
+    position: absolute;
+    top: 3174px;
+    left: 1191px;
+    width: 109px;
+    height: 125px;
+    opacity: 1;
+    list-style-type: none;
+    line-height: 35px;
+}
+.Group54Center a
+{
+    top: 3174px;
+    left: 1191px;
+    width: 51px;
+    height: 20px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal medium 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.Social-Media-FooterRight
+{
+    position: absolute;
+    top: 3221px;
+    left: 1467px;
+    width: 126px;
+    height: 32px;
+    opacity: 1;
+    border: 1px solid #ABABAB;
+
+}
