@@ -770,3 +770,194 @@ body{
 {
    margin:-3.3px;
 }
+.Group64Rise
+{
+    position: absolute;
+    top: 639px;
+    left: 327px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+}
+.RisePhoto
+{
+    top: 639px;
+    left: 352px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/0d348e5f90a6018197dca8e87992f00c.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.RiseText
+{
+    top: 839px;
+    left: 327px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.RiseBottomText
+{
+    top: 867px;
+    left: 327px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Bentianna
+{
+    position: absolute;
+    top: 639px;
+    left: 666px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+}
+.BentiannaPhoto
+{
+    top: 639px;
+    left: 691px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/be71f4d18da9c780327db8fcffa4dfe7.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin:0px 25px 25px 25px;
+}
+.BentiannaText
+{
+    top: 839px;
+    left: 666px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+
+}
+.BentiannaBottomText
+{
+    top: 867px;
+    left: 666px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Akkeshi
+{
+    position: absolute;
+    top: 639px;
+    left: 1005px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+    
+}
+.AkkeshiPhoto
+{
+    top: 639px;
+    left: 1030px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/61138df5c9cab59fab77d7aa68ad4d15.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin:0px 25px 25px 25px;
+}
+.AkkeshiText
+{
+    top: 839px;
+    left: 1005px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin:-28px 0px 0px 0px;
+}
+.AkkeshiBottomText
+{
+    top: 867px;
+    left: 1005px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Deadman
+{
+    position: absolute;
+    top: 639px;
+    left: 1344px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+    border: 1px solid #54B3A1;
+}
+.DeadmanPhoto
+{
+    top: 639px;
+    left: 1369px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/0cd779c3d2146ee3a96a57470b52ee82.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.DeadmanText
+{
+    top: 839px;
+    left: 1344px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.DeadmanBottomText
+{
+    top: 867px;
+    left: 1344px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 12.2px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
