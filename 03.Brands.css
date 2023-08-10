@@ -921,7 +921,7 @@ body{
     width: 250px;
     height: 260px;
     opacity: 1;
-    border: 1px solid #54B3A1;
+    
 }
 .DeadmanPhoto
 {
@@ -957,6 +957,198 @@ body{
     color: var(--unnamed-color-ababab);
     text-align: center;
     font: normal normal normal 12.2px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Chichibu
+{
+    position: absolute;
+    top: 1004px;
+    left: 327px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+ 
+}
+.ChichibuPhoto
+{
+    top: 1004px;
+    left: 352px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/1e482381fef7e9091f7cc17c76593781.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.ChichibuText
+{
+    top: 1204px;
+    left: 327px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.ChichibuBottomText
+{
+    top: 1232px;
+    left: 327px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 12.4px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Bobby
+{
+    position: absolute;
+    top: 1004px;
+    left: 666px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+   
+}
+.BobbyPhoto
+{
+    top: 1004px;
+    left: 691px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/37b7d7499c4d3be9a15cea9c58b80b5e.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.BobbyText
+{
+    top: 1204px;
+    left: 666px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.BobbyBoottomText
+{
+    top: 1232px;
+    left: 666px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 12.6px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Duppy
+{
+    position: absolute;
+    top: 1004px;
+    left: 1005px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+  
+}
+.DuppyPhoto
+{
+    top: 1004px;
+    left: 1030px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/7ea69226646a8d2677c3bd11ffc537b7.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.DuppyText
+{
+    top: 1204px;
+    left: 1005px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.DuppyBottomText
+{
+    top: 1232px;
+    left: 1005px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Crabbie
+{
+    position: absolute;
+    top: 1004px;
+    left: 1344px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+    border: 1px solid #54B3A1;
+}
+.CrabbiePhoto
+{
+    top: 1004px;
+    left: 1369px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/aef5513f8ddd9e18e51e85f7b86da274.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.CrabbieText
+{
+    top: 1204px;
+    left: 1344px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.CrabbieBottomText
+{
+    top: 1232px;
+    left: 1344px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
     letter-spacing: -0.13px;
     color: #ABABAB;
     opacity: 1;
