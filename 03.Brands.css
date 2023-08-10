@@ -1305,7 +1305,7 @@ body{
     width: 250px;
     height: 260px;
     opacity: 1;
-    border: 1px solid #54B3A1;
+    
 }
 .KavalanPhoto
 {
@@ -1335,6 +1335,197 @@ body{
 .KavalanBottomText
 {
     top: 1597px;
+    left: 1344px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Peaky
+{
+    position: absolute;
+    top: 1734px;
+    left: 327px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+    
+}
+.PeakyPhoto
+{
+    top: 1734px;
+    left: 352px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/4647235bbd51f64c94c261ac82733623.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.PeakyText
+{
+    top: 1934px;
+    left: 327px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.PeakyBottomText
+{
+    top: 1962px;
+    left: 327px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Portobello
+{
+    position: absolute;
+    top: 1734px;
+    left: 666px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+    
+}
+.PortobelloPhoto
+{
+    top: 1734px;
+    left: 691px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/12f028f3589426dc2c6a4b2a6558982c.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.PortobelloText
+{
+    top: 1934px;
+    left: 666px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.PortobelloBottomText
+{
+    top: 1962px;
+    left: 666px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Scapegrace
+{
+    position: absolute;
+    top: 1734px;
+    left: 1005px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;  
+}
+.ScapegracePhoto
+{
+    top: 1734px;
+    left: 1030px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/f6d7c69747d858e20bef2fa2e772ab13.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.ScapegraceText
+{
+    top: 1934px;
+    left: 1005px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.ScpegraceBottomText
+{
+    top: 1962px;
+    left: 1005px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Mars
+{
+    position: absolute;
+    top: 1734px;
+    left: 1344px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+    border: 1px solid #54B3A1;
+}
+.MarsPhoto
+{
+    top: 1734px;
+    left: 1369px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/040dfca0cacd9422e995d9bde761f1c6.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.MarsText
+{
+    top: 1934px;
+    left: 1344px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.MarsBottomText
+{
+    top: 1962px;
     left: 1344px;
     width: 250px;
     height: 32px;
