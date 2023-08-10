@@ -1774,3 +1774,52 @@ body{
     color: #ABABAB;
     opacity: 1;
 }
+.FooterPath50
+{
+    position: absolute;
+    top: 3023px;
+    left: 0px;
+    width: 1920px;
+    height: 397px;
+    background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: 1px solid #54B3A1;
+}
+.Logo-vienna-distribution
+{
+    position: absolute;
+    top: 3155px;
+    left: 327px;
+    width: 186px;
+    height: 162px;
+    background: transparent url('Home/Group 56.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Group54Left
+{
+    position: absolute;
+    top: 3174px;
+    left: 759px;
+    width: 190px;
+    height: 125px;
+    opacity: 1;
+    line-height: 35px;
+    list-style-type: none;
+}
+.Group54Left a
+{
+    top: 3174px;
+    left: 759px;
+    width: 46px;
+    height: 20px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal medium 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap;
+    text-decoration: none;
+}
