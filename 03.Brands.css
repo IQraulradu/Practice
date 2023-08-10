@@ -1113,7 +1113,7 @@ body{
     width: 250px;
     height: 260px;
     opacity: 1;
-    border: 1px solid #54B3A1;
+    
 }
 .CrabbiePhoto
 {
@@ -1153,3 +1153,195 @@ body{
     color: #ABABAB;
     opacity: 1;
 }
+.Group64Professore
+{
+    position: absolute;
+    top: 1369px;
+    left: 327px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+   
+}
+.ProfessorePhoto
+{
+    top: 1369px;
+    left: 352px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/1322c138fc0668bf5b97d5ca7d6dfaae.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.ProfessoreText
+{
+    top: 1569px;
+    left: 327px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.ProfessoreBottomText
+{
+    top: 1597px;
+    left: 327px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Edradour
+{
+    position: absolute;
+    top: 1369px;
+    left: 666px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+   
+}
+.EdradourPhoto
+{
+    top: 1369px;
+    left: 691px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/8ef0f6219a424f68d70bf5b8831f31b6.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.EdradourText
+{
+    top: 1569px;
+    left: 666px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.EdradourBottomText
+{
+    top: 1597px;
+    left: 666px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Ron
+{
+    position: absolute;
+    top: 1369px;
+    left: 1005px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+    
+}
+.RonPhoto
+{
+    top: 1369px;
+    left: 1030px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/5cb41dac2864e2af35952dfae7f01ae9.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.RonText
+{
+    top: 1569px;
+    left: 1005px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.RonBottomText
+{
+    top: 1597px;
+    left: 1005px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+}
+.Group64Kavalan
+{
+    position: absolute;
+    top: 1369px;
+    left: 1344px;
+    width: 250px;
+    height: 260px;
+    opacity: 1;
+    border: 1px solid #54B3A1;
+}
+.KavalanPhoto
+{
+    top: 1369px;
+    left: 1369px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('BrandWeWork/8fe5afad66847d015ed2701a35b0f462.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 25px 25px 25px;
+}
+.KavalanText
+{
+    top: 1569px;
+    left: 1344px;
+    width: 250px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal medium 18px/70px Futura PT;
+    letter-spacing: 1.8px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: -28px 0px 0px 0px;
+}
+.KavalanBottomText
+{
+    top: 1597px;
+    left: 1344px;
+    width: 250px;
+    height: 32px;
+    color: var(--unnamed-color-ababab);
+    text-align: center;
+    font: normal normal normal 13px/15px Futura PT;
+    letter-spacing: -0.13px;
+    color: #ABABAB;
+    opacity: 1;
+    }
