@@ -3298,10 +3298,11 @@
     top: 8203px;
     left: 0px;
     width: 1920px;
-    height: 397px;
+    height: 450px;
     background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 1;
+    transform: skewY(-2deg);
 }
 .Logo-Vienna-DistibutionFooter
 {
