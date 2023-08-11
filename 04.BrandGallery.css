@@ -374,3 +374,13 @@ body{
   opacity: 1;
   transform: translateX(-50%) scaleX(1); 
 }
+.Group86Main
+{
+    position: absolute;
+    top: 275px;
+    left: 327px;
+    width: 1266px;
+    height: 4066px;
+    opacity: 1;
+    border: 1px solid red;
+}
