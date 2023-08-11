@@ -382,5 +382,65 @@ body{
     width: 1266px;
     height: 4066px;
     opacity: 1;
-    border: 1px solid red;
+}
+.gallery-picture-1
+{
+    position: absolute;
+    top: 275px;
+    left: 327px;
+    width: 402px;
+    height: 272px;
+    background: transparent url('BrandGallery/91a0de0ea14d672cff42ed9294950971.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: luminosity;
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    z-index: 1;
+}
+.gallery-picture-1:hover
+{
+    top: 275px;
+    left: 327px;
+    width: 402px;
+    height: 272px;
+    mix-blend-mode:normal;
+    background: transparent url('BrandGallery/91a0de0ea14d672cff42ed9294950971.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+.gallery-picture-arrow
+{
+    top: 503px;
+    left: 688px;
+    width: 17px;
+    height: 22px;
+    transform: matrix(0, 1, -1, 0, 0, 0);
+    background: transparent url('BrandGallery/Group\ 128.png') 0% 0% no-repeat padding-box;
+    transform: rotate(360deg);   
+    opacity: 0;
+    margin:5px 10px;
+    z-index: 1;  
+    
+}
+.gallery-picture-1:hover .gallery-picture-arrow  {
+    opacity: 1;
+}
+.Rectangle89
+{
+    top: 496px;
+    left: 678px;
+    width: 36px;
+    height: 36px;
+    background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ffffff);
+    background: #000000 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #FFFFFF;
+    opacity: 0;
+    z-index: 0;
+    margin: 220px 350px;
+}
+.gallery-picture-1:hover .Rectangle89
+{
+    opacity: 1;
 }
