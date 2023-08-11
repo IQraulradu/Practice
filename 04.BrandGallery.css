@@ -1049,3 +1049,54 @@ body{
 {
     opacity: 1;
 }
+.gallery-picture-14
+{
+    position: absolute;
+    top: 2005px;
+    left: 1191px;
+    width: 402px;
+    height: 394px;
+    background: transparent url('BrandGallery/25eb77c76127478fd0fd1fa806a4fc48.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: luminosity;
+    opacity: 1;
+}
+.gallery-picture-14:hover
+{
+    top: 2005px;
+    left: 1191px;
+    width: 402px;
+    height: 394px;
+    mix-blend-mode: normal;
+    background: transparent url('BrandGallery/25eb77c76127478fd0fd1fa806a4fc48.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Rectangle-14
+{
+    top: 2348px;
+    left: 1542px;
+    width: 36px;
+    height: 36px;
+    background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ffffff);
+    background: #000000 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #FFFFFF;
+    opacity: 0;
+    margin: 340px 350px;
+}
+.gallery-picture-arrow-14
+{
+    top: 2355px;
+    left: 1552px;
+    width: 17px;
+    height: 22px;
+    transform: matrix(0, 1, -1, 0, 0, 0);
+    transform: rotate(360deg);
+    margin: 5px 10px;
+    background: transparent url('BrandGallery/Group 128.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.gallery-picture-14:hover .Rectangle-14
+{
+    opacity: 1;
+}
