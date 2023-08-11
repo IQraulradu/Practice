@@ -1198,3 +1198,105 @@ body{
 {
     opacity: 1;
 }
+.gallery-picture-17
+{
+    position: absolute;
+    top: 2429px;
+    left: 1191px;
+    width: 402px;
+    height: 263px;
+    background: transparent url('BrandGallery/54df2b2ed4770c9b917cadb888d942d3.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: luminosity;
+    opacity: 1;
+}
+.gallery-picture-17:hover
+{
+    top: 2429px;
+    left: 1191px;
+    width: 402px;
+    height: 263px;
+    mix-blend-mode: normal;
+    background: transparent url('BrandGallery/54df2b2ed4770c9b917cadb888d942d3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Rectangle-17
+{
+    top: 2641px;
+    left: 1542px;
+    width: 36px;
+    height: 36px;
+    background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ffffff);
+    background: #000000 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #FFFFFF;
+    opacity: 0;
+    margin: 210px 350px;
+}
+.gallery-picture-arrow-17
+{
+    top: 2648px;
+    left: 1552px;
+    width: 17px;
+    height: 22px;
+    transform: matrix(0, 1, -1, 0, 0, 0);
+    transform: rotate(360deg);
+    margin: 5px 10px;
+    background: transparent url('BrandGallery/Group 128.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.gallery-picture-17:hover .Rectangle-17
+{
+    opacity: 1;
+}
+.gallery-picture-18
+{
+    position: absolute;
+    top: 2722px;
+    left: 1191px;
+    width: 402px;
+    height: 503px;
+    background: transparent url('BrandGallery/23ea4c27b0d509a1abed24b38ba5cb80.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: luminosity;
+    opacity: 1;
+}
+.gallery-picture-18:hover
+{
+    top: 2722px;
+    left: 1191px;
+    width: 402px;
+    height: 503px;
+    mix-blend-mode: normal;
+    background: transparent url('BrandGallery/23ea4c27b0d509a1abed24b38ba5cb80.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Rectangle-18
+{
+    top: 3174px;
+    left: 1542px;
+    width: 36px;
+    height: 36px;
+    background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ffffff);
+    background: #000000 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #FFFFFF;
+    opacity: 0;
+    margin: 450px 350px;
+}
+.gallery-picture-arrow-18
+{
+    top: 3181px;
+    left: 1552px;
+    width: 17px;
+    height: 22px;
+    transform: matrix(0, 1, -1, 0, 0, 0);
+    margin: 5px 10px;
+    transform: rotate(360deg);
+    background: transparent url('BrandGallery/Group 128.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.gallery-picture-18:hover .Rectangle-18
+{
+    opacity: 1;
+}
