@@ -374,3 +374,35 @@ body{
   opacity: 1;
   transform: translateX(-50%) scaleX(1); 
 }
+.brands-filter
+{
+    position: absolute;
+    top: 241px;
+    left: 316px;
+    width: 2681px;
+    height: 95px;
+    opacity: 1;
+    border: 1px solid red;
+}
+.next-prev
+{
+    top: 272px;
+    left: 300px;
+    width: 14px;
+    height: 16px;
+    background: transparent url('Brands/Path\ 55-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 10px;
+    margin-top: 35px;
+}
+.next-prev:hover
+{
+    top: 272px;
+    left: 300px;
+    width: 14px;
+    height: 16px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: transparent url('Brands/Path\ 55-1.png') 0% 0% no-repeat padding-box;
+    filter: invert(69%) sepia(62%) saturate(308%) hue-rotate(119deg) brightness(130%) contrast(87%);
+    opacity: 1;
+}
