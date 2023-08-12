@@ -290,7 +290,6 @@ body{
     background: transparent url('BrandWeWork/Twitter-1.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
-
 .gallery-category-selection
 {
     position: absolute;
@@ -331,7 +330,7 @@ body{
     text-decoration: none;
     transition: all 0.5s ease;
 }
-#PressHover
+#BrandsHover
 {
     color: #54B3A1;
 
@@ -340,25 +339,25 @@ body{
 {
     top: 200px;
     left: 654px;
-    width: 38px;
+    width: 50px;
     height: 3px;
     background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
     background: #54B3A1 0% 0% no-repeat padding-box;
     opacity: 1;
     z-index: 1;
-    margin-top: 29px;
-    margin-left: -95px;
+    margin-top: 6px;
+    margin-left: 10x;
 }
-#BrandsHover:hover
+#PressHover:hover
 {
     color: #54B3A1;
 }
-#BrandsHover::after{
+#PressHover::after{
     position: absolute;
     content: "";
     height: 3px;
-    width: 50px;
-    margin-left:-9.5px;
+    width: 40px;
+    margin-left:-15px;
     background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
     background: #54B3A1 0% 0% no-repeat padding-box;
     opacity: 0; 
@@ -370,8 +369,8 @@ body{
     margin-top: 6px;
     z-index: 1;
 }
-#BrandsHover:hover::after,
-#BrandsHover:focus::after {
+#PressHover:hover::after,
+#PressHover:focus::after {
   opacity: 1;
   transform: translateX(-50%) scaleX(1); 
 }
