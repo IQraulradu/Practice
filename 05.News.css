@@ -11,6 +11,7 @@ body{
     background: var(--unnamed-color-0d0d0d) 0% 0% no-repeat padding-box;
     background: #0D0D0D 0% 0% no-repeat padding-box;
     opacity: 1;
+    z-index: 0;
 }
 #navbar
 {
@@ -288,4 +289,28 @@ body{
     height: 14px;
     background: transparent url('BrandWeWork/Twitter-1.png') 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+.ReadSomeText
+{
+    position: absolute;
+    top: 195px;
+    left: 405px;
+    width: 1110px;
+    height: 136px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: center;
+    font: normal normal 300 50px/63px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    opacity: 1;
+}
+.RepeatGri2
+{
+    position: absolute;
+    top: 456px;
+    left: 327px;
+    width: 1266px;
+    height: 1591px;
+    opacity: 1;
+    border: 1px solid red;
 }
