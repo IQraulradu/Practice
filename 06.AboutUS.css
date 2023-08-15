@@ -372,3 +372,52 @@ body{
     color: #F5F5F5;
     white-space: initial;
 }
+.next-prev-1
+{
+    position: absolute;
+    top: 1376px;
+    left: 250px;
+    width: 14px;
+    height: 16px;
+    background: transparent url('About/Path 55-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.next-prev-1:hover
+{
+    top: 1376px;
+    left: 250px;
+    width: 14px;
+    height: 16px;
+    filter: invert(64%) sepia(11%) saturate(1589%) hue-rotate(119deg) brightness(130%) contrast(91%);
+    opacity: 1;
+}
+.MaskGroup3
+{
+    position: absolute;
+    top: 1028px;
+    left: 327px;
+    width: 1266px;
+    height: 712px;
+    background: transparent url('About/Mask Group 3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.next-prev-2
+{
+    position: absolute;
+    top: 1376px;
+    left: 1656px;
+    width: 14px;
+    height: 16px;
+    background: transparent url('About/Path 55.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+.next-prev-2:hover
+{
+    top: 1376px;
+    left: 1656px;
+    width: 14px;
+    height: 16px;
+    filter: invert(64%) sepia(11%) saturate(1589%) hue-rotate(119deg) brightness(130%) contrast(91%);
+    opacity: 1;
+}
