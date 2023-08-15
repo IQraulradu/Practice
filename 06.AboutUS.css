@@ -421,3 +421,109 @@ body{
     filter: invert(64%) sepia(11%) saturate(1589%) hue-rotate(119deg) brightness(130%) contrast(91%);
     opacity: 1;
 }
+.Our-Staff-Text
+{
+    position: absolute;
+    top: 1890px;
+    left: 327px;
+    width: 294px;
+    height: 55px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 43px/43px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.Rectangle30
+{
+    position: absolute;
+    top: 1945px;
+    left: 327px;
+    width: 32px;
+    height: 2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Rectangle93
+{
+    position: absolute;
+}
+.Group97
+{
+    position: absolute;
+    top: 1997px;
+    left: 327px;
+    width: 1266px;
+    height: 780px;
+    opacity: 1;
+    border: 1px solid yellow;
+}
+.Rectangle93
+{
+    top: 1997px;
+    left: 327px;
+    width: 294px;
+    height: 375px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Image19
+{
+    position: absolute;
+    top: 2027px;
+    left: 327px;
+    width: 294px;
+    height: 315px;
+    background: transparent url('About/Image 19-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 20px 5px;
+}
+.Arnold-Text
+{
+    position: absolute;
+    top: 2283px;
+    left: 361px;
+    width: 226px;
+    height: 41px;
+    color: var(--unnamed-color-0d0d0d);
+    text-align: center;
+    font: normal normal normal 32px/41px Futura PT;
+    letter-spacing: 0px;
+    color: #0D0D0D;
+    text-transform: capitalize;
+    opacity: 1;
+    z-index: 1;
+}
+.Arnold-the-chef
+{
+    position: absolute;
+    top: 2329px;
+    left: 433px;
+    width: 82px;
+    height: 20px;
+    color: var(--unnamed-color-0d0d0d);
+    text-align: center;
+    font: normal normal medium 15px/20px Futura PT;
+    letter-spacing: 3px;
+    color: #0D0D0D;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap;
+    z-index: 1;
+}
+.rectangle28
+{
+    position: absolute;
+    top: 2268px;
+    left: 459px;
+    width: 30px;
+    height: 104px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 0;
+}
