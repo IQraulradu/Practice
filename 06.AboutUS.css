@@ -1023,3 +1023,47 @@ body{
     background: #54B3A1 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+.WeDesign
+{
+    position: absolute;
+    top: 3084px;
+    left: 543px;
+    width: 834px;
+    height: 202px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal 300 40px/49px Futura PT;
+    letter-spacing: 0px;
+    line-height: 60px;
+    color: #F5F5F5;
+    opacity: 1;
+}
+#Text-1
+{
+    position: absolute;
+    top: 3386px;
+    left: 543px;
+    width: 402px;
+    height: 439px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 17px/26px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    opacity: 1;
+}
+#Text-2
+{
+    position: absolute;
+    top: 3386px;
+    left: 975px;
+    width: 402px;
+    height: 413px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 18px/26px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    opacity: 1;
+
+}
