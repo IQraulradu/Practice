@@ -294,5 +294,81 @@ body{
     background: transparent url('BrandWeWork/Twitter-1.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
-
-
+.ViennaText
+{
+    position: absolute;
+    top: 170px;
+    left: 327px;
+    width: 618px;
+    height: 428px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 90px/100px Futura PT;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    z-index: 1;
+}
+.Rectangle16
+{
+    position: absolute;
+    top: 392px;
+    left: 414px;
+    width: 639px;
+    height: 53px;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    transform: rotate(0deg);
+}
+.Group107
+{
+    position: absolute;
+    top: 673px;
+    left: 327px;
+    width: 1266px;
+    height: 155px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.Group107-Text-1
+{
+    top: 673px;
+    left: 327px;
+    width: 618px;
+    height: 155px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal 300 30px/38px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    opacity: 1;
+}
+.Group107-Text-2
+{
+    top: 38px;
+    left: 0px;
+    width: 603px;
+    height: 41px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal 300 28.5px/38px Futura PT;
+    letter-spacing: -0.06px;
+    color: #F5F5F5;
+}
+#Group107-Text-Inside
+{
+    top: 114px;
+    left: 69px;
+    width: 542px;
+    height: 41px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 26px/38px Futura PT;
+    letter-spacing: -0.06px;
+    color: #F5F5F5;
+    white-space: initial;
+}
