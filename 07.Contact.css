@@ -696,3 +696,15 @@ input[type=text-message]::placeholder
     opacity: 1;
     cursor: pointer;
 }
+.Rectangle51
+{
+    position: absolute;
+    top: 388px;
+    left: 1191px;
+    width: 402px;
+    height: 538px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
