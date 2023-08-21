@@ -340,7 +340,7 @@ body
     height: 592px;
     opacity: 1;
 }
-.Input-Container
+.Input-Container-Name
 {
     top: 405px;
     left: 327px;
@@ -409,7 +409,7 @@ input[type=text]::placeholder
     margin-left: 10px;
     cursor: pointer;
 }
-.Input-Container:hover .Rectangle47
+.Input-Container-Name:hover .Rectangle47
 {
     display: none;
 }
