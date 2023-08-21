@@ -8,11 +8,10 @@ const inputElement= document.getElementById('YourName');
            {
             this.setAttribute('placeholder', placeholderText);
 
-           }, 3500);
+           }, 4000);
         });
-
-        const inputEmailElement = document.getElementById('YourEmail');
-        const placeholderEmailText = inputElement.getAttribute('placeholder');
+const inputEmailElement = document.getElementById('YourEmail');
+const placeholderEmailText = inputEmailElement.getAttribute('placeholder');
         inputEmailElement.addEventListener('focus', function()
         {
            this.removeAttribute('placeholder');
@@ -22,4 +21,17 @@ const inputElement= document.getElementById('YourName');
             this.setAttribute('placeholder', placeholderEmailText);
 
            }, 3500);
+        });
+
+        const inputPhoneElement = document.getElementById('YourPhone');
+        const placeholderPhoneText = inputPhoneElement.getAttribute('placeholder');
+        inputPhoneElement.addEventListener('focus', function()
+        {
+           this.removeAttribute('placeholder');
+           
+           setTimeout(() =>
+           {
+            this.setAttribute('placeholder', placeholderPhoneText);
+
+           }, 2500);
         });
