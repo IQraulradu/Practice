@@ -706,5 +706,86 @@ input[type=text-message]::placeholder
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
-
+}
+.Rectangle45
+{
+    top: 408px;
+    left: 1211px;
+    width: 362px;
+    height: 496px;
+    border: 2px solid var(--unnamed-color-333333);
+    border: 2px solid #333333;
+    opacity: 1;
+    margin: 20px;
+}
+.logo-vienna
+{
+    top: 448px;
+    left: 1299px;
+    width: 186px;
+    height: 162px;
+    background: transparent url('Contact/Group\ 56-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin:39.94px 88px 293.94px 88px;
+}
+.ViennaDistributionText
+{
+    top: 660px;
+    left: 1259px;
+    width: 266px;
+    height: 69px;
+    color: var(--unnamed-color-000000);
+    text-align: center;
+    font: normal normal normal 19px/23px Futura PT;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 252.06px 48px 174.94px 48px;
+    margin-top: -250px;
+}
+.Phone-Email
+{
+    top: 0px;
+    left: 95px;
+    width: 286px;
+    height: 43px;
+    color: var(--unnamed-color-000000);
+    text-align: center;
+    font: normal normal normal 18px/23px Futura PT;
+    letter-spacing: 0px;
+    color: #000000;
+    white-space: nowrap;
+    margin: 346.06px 35px 103.94px 35px;
+    padding: 5px;
+    margin-top: -150px;
+}
+.Group69
+{
+    top: 840px;
+    left: 1350px;
+    width: 84px;
+    height: 32px;
+    opacity: 1;
+    margin: 432.06px 140px 31.94px 140px;
+    margin-top: -70px;
+    display: flex;
+    justify-content: space-between;
+}
+.Facebook-Vienna
+{
+    top: 840px;
+    left: 1350px;
+    width: 36px;
+    height: 36px;
+    background: transparent url('Contact/Facebook.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Instagam-Vienna
+{
+    top: 840px;
+    left: 1402px;
+    width: 36px;
+    height: 36px;
+    background: transparent url('Contact/Instagram.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
