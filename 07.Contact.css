@@ -339,7 +339,6 @@ body
     width: 726px;
     height: 592px;
     opacity: 1;
-    border: 1px solid #54B3A1;
 }
 .Input-Container-Name
 {
@@ -417,7 +416,6 @@ input[type=text]::placeholder
 {
     display: none;
 }
-
 .Input-Container-Email
 {
     top: 539px;
@@ -442,7 +440,6 @@ input[type=text]::placeholder
     opacity: 1;
     margin: 25px;
 }
-
 input[type=text-email]
 {
     top: 563px;
@@ -503,7 +500,6 @@ input[type=text-email]::placeholder
     opacity: 1;
     margin-left: 374px;
     margin-top: -95px;
-
 }
 #input-phone
 {
@@ -564,9 +560,83 @@ input[type=text-phone]::placeholder
     background: #54B3A1 0% 0% no-repeat padding-box;
     opacity: 1;
     margin-top: -45px;
-    margin-left: 11.5px;
+    margin-left: 10px;
 }
 .Input-Container-Phone:hover .Rectangle47-Phone
+{
+    display: none;
+}
+.Input-Container-Message
+{
+    top: 673px;
+    left: 327px;
+    width: 726px;
+    height: 214px;
+    opacity: 1;
+    margin-top: 50px;
+}
+#input-message
+{
+    top: 673px;
+    left: 357px;
+    width: 124px;
+    height: 20px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: 25px;
+}
+input[type=text-message]
+{
+    top: 697px;
+    left: 327px;
+    width: 716px;
+    height: 180px;
+    border: 2px solid var(--unnamed-color-ffffff);
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    color: #FFFFFF;
+    text-align: left;
+    font: normal normal normal 18px/23px Futura PT;
+    letter-spacing: 0px;
+    display: inline-block;  
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: transparent;
+    align-items: center;
+    outline:none;
+}
+input[type=text-message]::placeholder
+{
+    top: 716px;
+    left: 357px;
+    width: 182px;
+    height: 23px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 18px/23px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 25px;  
+}
+.Rectangle47-Message
+{
+    top: 707px;
+    left: 337px;
+    width: 716px;
+    height: 180px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: -165px;
+    margin-left: 10px;
+}
+.Input-Container-Message:hover .Rectangle47-Message
 {
     display: none;
 }
