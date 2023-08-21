@@ -8,5 +8,18 @@ const inputElement= document.getElementById('YourName');
            {
             this.setAttribute('placeholder', placeholderText);
 
-           }, 2500);
+           }, 3500);
+        });
+
+        const inputEmailElement = document.getElementById('YourEmail');
+        const placeholderEmailText = inputElement.getAttribute('placeholder');
+        inputEmailElement.addEventListener('focus', function()
+        {
+           this.removeAttribute('placeholder');
+           
+           setTimeout(() =>
+           {
+            this.setAttribute('placeholder', placeholderEmailText);
+
+           }, 3500);
         });

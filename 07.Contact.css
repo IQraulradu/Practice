@@ -405,11 +405,85 @@ input[type=text]::placeholder
     background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
     background: #54B3A1 0% 0% no-repeat padding-box;
     opacity: 1;
-    margin-top: -50px;
+    margin-top: -45px;
     margin-left: 10px;
     cursor: pointer;
 }
 .Input-Container-Name:hover .Rectangle47
+{
+    display: none;
+}
+
+.Input-Container-Email
+{
+    top: 539px;
+    left: 327px;
+    width: 350px;
+    height: 94px;
+    opacity: 1;
+    margin-top: 50px;
+}
+#input-email
+{
+    top: 539px;
+    left: 357px;
+    width: 175px;
+    height: 20px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: 25px;
+}
+
+input[type=text-email]
+{
+    top: 563px;
+    left: 327px;
+    width: 340px;
+    height: 60px;
+    border: 2px solid var(--unnamed-color-ffffff);
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    color: white;
+    display: inline-block;  
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: transparent;
+    align-items: center;
+    outline:none;
+}
+input[type=text-email]::placeholder
+{
+    top: 582px;
+    left: 357px;
+    width: 152px;
+    height: 23px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 18px/23px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 25px;
+}
+.Rectangle47-Email
+{
+    top: 573px;
+    left: 337px;
+    width: 340px;
+    height: 60px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: -45px;
+    margin-left: 10px;
+}
+.Input-Container-Email:hover .Rectangle47-Email
 {
     display: none;
 }
