@@ -290,12 +290,6 @@ body{
     background: transparent url('BrandWeWork/Twitter-1.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
-
-
-
-
-
-
 .ReadSomeText
 {
     position: absolute;
@@ -310,7 +304,6 @@ body{
     color: #F5F5F5;
     opacity: 1;
 }
-
 
 .RepeatGri2
 {
@@ -340,30 +333,9 @@ body{
     height: 490px;
     opacity: 1;
     border: 3px solid gold;
-    z-index: 0;
-}
-.BlogPostBorder-1
-{
-    top: 466px;
-    left: 337px;
-    width: 382px;
-    height: 470px;
-    border: 2px solid var(--unnamed-color-0d0d0d);
-    border: 2px solid #1500ff;
-    opacity: 1;
-    margin: 10px 10px;
-    margin-top: -480px;
-    z-index: 0;
-}
-.BlogPostBorder-1:hover
-{
-    top: 466px;
-    left: 337px;
-    width: 382px;
-    height: 470px;
-    border: 2px solid var(--unnamed-color-54b3a1);
-    border: 2px solid #54B3A1;
-    opacity: 1;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
     z-index: 0;
 }
 .BlogPostPhoto
@@ -374,25 +346,8 @@ body{
     height: 273px;
     background: transparent linear-gradient(180deg, #00000000 0%, var(--unnamed-color-000000) 100%) 0% 0% no-repeat padding-box;
     background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
-    background: transparent url(News/53b2b5c1433be3b14a833098152b2789-1.png) 0% 0% no-repeat padding-box;
-    opacity: 1;
-    z-index: 0;
-}
-.BlogPostPhoto:hover
-{
-    top: 456px;
-    left: 327px;
-    width: 402px;
-    height: 273px;
-    background: transparent linear-gradient(180deg, #00000000 0%, var(--unnamed-color-000000) 100%) 0% 0% no-repeat padding-box;
-    background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
-    background: transparent url(News/53b2b5c1433be3b14a833098152b2789-1@2x.png) 0% 0% no-repeat padding-box;
-    background-image: 105%;
     opacity: 1;
 }
-
-
-
 .BlogPostWhite
 {
     top: 729px;
@@ -404,145 +359,17 @@ body{
     opacity: 1;
     z-index: 0;
 }
- 
-/* .BlogPostDate
+.BlogPostBorder-1
 {
-    position: absolute;
-    top: 711px;
-    left: 357px;
-    width: 342px;
-    height: 23px;
-    color: var(--unnamed-color-f5f5f5);
-    text-align: left;
-    font: normal normal normal 18px/24px Futura PT;
-    letter-spacing: 0px;
-    color: #F5F5F5;
-    text-transform: uppercase;
-    opacity: 1;
-}
-.BlogPostWhiskey
-{
-    position: absolute;
-    top: 749px;
-    left: 357px;
-    width: 220px;
-    height: 55px;
-    color: var(--unnamed-color-0d0d0d);
-    text-align: left;
-    font: normal normal normal 24px/24px Futura PT;
-    letter-spacing: 0px;
-    color: #0D0D0D;
-    text-transform: uppercase;
-    opacity: 1;
-}
-.SocialMediaBlog
-{
-    position: absolute;
-    top: 754px;
-    left: 607px;
-    width: 92px;
-    height: 24px;
-    opacity: 1;
-    display: flex;
-    justify-content: space-between;
-}
-.facebook-blog
-{
-    top: 754px;
-    left: 607px;
-    width: 28px;
-    height: 28px;
-    background: transparent url('News/Facebook-1.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.instagram-blog
-{
-    top: 754px;
-    left: 641px;
-    width: 28px;
-    height: 28px;
-    background: transparent url('News/Twitter-1.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.linkedin-blog
-{
-    top: 754px;
-    left: 675px;
-    width: 28px;
-    height: 28px;
-    background: transparent url('News/Linkedin-1.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.BlogPostLittleBorder
-{
-    position: absolute;
-    top: 814px;
-    left: 357px;
-    width: 32px;
-    height: 2px;
-    background: var(--unnamed-color-0d0d0d) 0% 0% no-repeat padding-box;
-    background: #0D0D0D 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-.BlogPostText
-{
-    position: absolute;
-    top: 836px;
-    left: 357px;
-    width: 342px;
-    height: 71px;
-    color: var(--unnamed-color-333333);
-    text-align: left;
-    font: normal normal normal 18px/24px Futura PT;
-    letter-spacing: 0px;
-    color: #333333;
-    opacity: 1;
-}
-.BlogPostBorder
-{
-    position: absolute;
     top: 466px;
     left: 337px;
     width: 382px;
     height: 470px;
     border: 2px solid var(--unnamed-color-0d0d0d);
-    border: 2px solid #0D0D0D;
+    border: 2px solid #ff0000;
     opacity: 1;
-    z-index: 1;
-    margin: 2px 2px;
-    z-index: 0;
+    margin: 10px 10px;
+    margin-top: -480px;
 }
-.BlogPostPhoto:hover
-{
-    top: 456px;
-    left: 327px;
-    width: 402px;
-    height: 273px;
-    background: transparent linear-gradient(180deg, #00000000 0%, var(--unnamed-color-000000) 100%) 0% 0% no-repeat padding-box;
-    background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
-    background: transparent url('News/53b2b5c1433be3b14a833098152b2789-1@2x.png') 0% 0% padding-box border-box;
-    opacity: 1;
-    z-index: 1;
-    background-size: 105%;
-}
-.BlogPostBorder:hover
-{
-    top: 466px;
-    left: 337px;
-    width: 382px;
-    height: 470px;
-    border: 2px solid var(--unnamed-color-54b3a1);
-    border: 2px solid #54B3A1;
-    opacity: 1;
-}
-.BlogPostLittleBorder:hover
-{
-    top: 814px;
-    left: 357px;
-    width: 32px;
-    height: 2px;
-    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
-    background: #54B3A1 0% 0% no-repeat padding-box;
-    opacity: 1;
-} */
+
 
