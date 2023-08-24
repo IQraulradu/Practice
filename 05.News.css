@@ -324,6 +324,7 @@ body{
     height: 490px;
     opacity: 1;
     z-index: 0;
+    border: 1px solid #54B3A1;
 }
 .BlogPost
 {
@@ -349,6 +350,20 @@ body{
     background: transparent url('News/53b2b5c1433be3b14a833098152b2789-1.png') 0% 0% padding-box no-repeat;
     opacity: 1;
     z-index: 1;
+}
+.BlogPostDate
+{
+    top: 711px;
+    left: 357px;
+    width: 342px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
 }
 .BlogPostWhite
 {
@@ -388,7 +403,6 @@ body{
     background-size: 100%;
     opacity: 1;
     z-index: 1;
-
 }
 
 
