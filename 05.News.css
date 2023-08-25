@@ -333,7 +333,6 @@ body{
     width: 402px;
     height: 490px;
     opacity: 1;
-    border: 3px solid gold;
     display: flexbox;
     justify-content: space-between;
     align-items: center;
@@ -457,5 +456,58 @@ body{
     height: 2px;
     background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
     background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.TextWhiskey
+{
+    top: 836px;
+    left: 357px;
+    width: 342px;
+    height: 71px;
+    color: var(--unnamed-color-333333);
+    text-align: left;
+    font: normal normal normal 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+    margin: 15px 15px;
+}
+.Social-Media-Blog-Post
+{
+    top: 754px;
+    left: 607px;
+    width: 92px;
+    height: 24px;
+    opacity: 1;
+    margin-top: -175px;
+    margin-left: 275px;
+    display: flex;
+    justify-content: space-between;
+}
+.Facebook-post
+{
+    top: 754px;
+    left: 607px;
+    width: 25px;
+    height: 25px;
+    background: transparent url('News/Facebook-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Twitter-post
+{
+    top: 754px;
+    left: 641px;
+    width: 25px;
+    height: 25px;
+    background: transparent url('News/Twitter-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Linkedin-post
+{
+    top: 754px;
+    left: 675px;
+    width: 25px;
+    height: 25px;
+    background: transparent url('News/Linkedin-1.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
