@@ -300,7 +300,6 @@ body
     width: 618px;
     height: 491px;
     opacity: 1;
-    border: 1px solid red;
 }
 .Group174
 {
@@ -312,14 +311,12 @@ body
     display: flex;
     justify-content: space-between;
     cursor: pointer;
-    list-style-type: none;
-
-    
+    list-style-type: none; 
 }
 .Group174 a
 {
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: all 0.4s ease-in-out;
 }
 .Group174 a:hover {
     transform: rotate(10deg);
@@ -347,4 +344,34 @@ body
     color: #54B3A1;
     opacity: 1;
     margin: 2px 0px;
+}
+.Netflix-HeadSpace-Text
+{
+    top: 233px;
+    left: 327px;
+    width: 618px;
+    height: 253px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 57px/60px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 23px -1px;
+    white-space:nowrap;
+}
+
+.Netflix-HeadSpace-Down-Text
+{
+    top: 526px;
+    left: 327px;
+    width: 618px;
+    height: 155px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal 300 30px/38px Futura PT;
+    letter-spacing: 0px;
+    color: grey;
+    opacity: 1;
+    margin: 32px -1px;
 }
