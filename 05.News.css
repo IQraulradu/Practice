@@ -313,7 +313,6 @@ body{
     width: 1266px;
     height: 1591px;
     opacity: 1;
-    border: 1px solid red;
     z-index: 1;
 }
 .GroupMenu
@@ -334,9 +333,8 @@ body{
     width: 402px;
     height: 490px;
     opacity: 1;
-    display: flexbox;
-    justify-content: space-between;
     align-items: center;
+    margin: 0px -1px;
     z-index: 1;
 }
 .BlogPostPhoto
@@ -869,5 +867,14 @@ body{
     width: 1266px;
     height: 490px;
     opacity: 1;
-    margin: 50px  0px;
+    margin: 50px  -1px;
+}
+.BlogPost-Down
+{
+    top: 1556px;
+    left: 327px;
+    width: 1266px;
+    height: 490px;
+    opacity: 1;
+    margin: 70px -1px;
 }
