@@ -323,6 +323,8 @@ body{
     width: 1266px;
     height: 490px;
     opacity: 1;
+    display: flex;
+    justify-content: space-between;
     border: 1px solid #54B3A1;
     z-index: 1;
 }
@@ -506,6 +508,182 @@ body{
 {
     top: 754px;
     left: 675px;
+    width: 25px;
+    height: 25px;
+    background: transparent url('News/Linkedin-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.BlogPost-1
+{
+    top: 456px;
+    left: 759px;
+    width: 402px;
+    height: 490px;
+    opacity: 1;
+    border: 1px solid rgb(255, 0, 221);
+}
+.BlogPostPhoto-1
+{
+    top: 456px;
+    left: 759px;
+    width: 402px;
+    height: 273px;
+    background: transparent linear-gradient(180deg, #00000000 0%, var(--unnamed-color-000000) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+    background: transparent url('News/1b6433634ad28fc5d76069027821da50-1.png') 0% 0% padding-box no-repeat;
+    opacity: 1;
+}
+.BlogPostWhite-1
+{
+    top: 729px;
+    left: 759px;
+    width: 402px;
+    height: 217px;
+    background: var(--unnamed-color-f5f5f5) 0% 0% no-repeat padding-box;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.BlogPostBorder-2
+{
+    top: 466px;
+    left: 769px;
+    width: 382px;
+    height: 470px;
+    border: 2px solid var(--unnamed-color-0d0d0d);
+    border: 2px solid #0D0D0D;
+    margin: 5px 10px;
+    margin-top: -480px;
+    opacity: 1
+}
+.BlogPostBorder-2:hover
+{
+    top: 466px;
+    left: 769px;
+    width: 382px;
+    height: 470px;
+    border: 2px solid var(--unnamed-color-54b3a1);
+    border: 2px solid #54B3A1;
+    opacity: 1;
+    background: transparent linear-gradient(180deg, #00000000 0%, var(--unnamed-color-000000) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+    background: transparent url('News/1b6433634ad28fc5d76069027821da50-1@2x.png') 0% 0% padding-box no-repeat;
+    background-size:100%;
+}
+.BlogPostDate-1
+{
+    top: 711px;
+    left: 789px;
+    width: 342px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin:10px;
+    margin-top: 240px;
+}
+.BlackBoarder-1
+{
+    top: 200px;  
+    bottom: 0;
+    width: 402px;
+    left: -2.5px;
+    width: 105.5%;
+    height: 15%;
+    background: transparent linear-gradient(180deg, #00000000 0%, var(--unnamed-color-000000) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: -83px;
+    margin-left: -12px;
+    z-index: 0;
+}
+.SecondText
+{
+    top: 749px;
+    left: 789px;
+    width: 220px;
+    height: 55px;
+    color: var(--unnamed-color-0d0d0d);
+    text-align: left;
+    font: normal normal normal 24px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #0D0D0D;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: 15px 15px;
+}
+.Rectangle44-1
+{
+    top: 814px;
+    left: 789px;
+    width: 32px;
+    height: 2px;
+    background: var(--unnamed-color-0d0d0d) 0% 0% no-repeat padding-box;
+    background: #0D0D0D 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 10px 15px;
+}
+.BlogPostBorder-2:hover .Rectangle44-1
+{
+    top: 814px;
+    left: 789px;
+    width: 32px;
+    height: 2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.TextSecond
+{
+    top: 836px;
+    left: 789px;
+    width: 342px;
+    height: 71px;
+    color: var(--unnamed-color-333333);
+    text-align: left;
+    font: normal normal normal 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+    margin: 15px 15px;
+}
+.Social-Media-Blog-Post-1
+{
+    top: 754px;
+    left: 1039px;
+    width: 92px;
+    height: 24px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -175px;
+    margin-left: 275px;
+}
+.Facebook-post-1
+{
+    top: 754px;
+    left: 1039px;
+    width: 25px;
+    height: 25px;
+    background: transparent url('News/Facebook-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Twitter-post-1
+{
+    top: 754px;
+    left: 1073px;
+    width: 25px;
+    height: 25px;
+    background: transparent url('News/Twitter-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Linkedin-post-1
+{
+    top: 754px;
+    left: 1107px;
     width: 25px;
     height: 25px;
     background: transparent url('News/Linkedin-1.png') 0% 0% no-repeat padding-box;
