@@ -788,4 +788,100 @@ body
     color: #333333;
     opacity: 1;
 }
-
+.Rectangle116
+{
+    position: absolute;
+    top: 6474px;
+    left: 327px;
+    width: 1266px;
+    height: 336px;
+    background: var(--unnamed-color-f5f5f5) 0% 0% no-repeat padding-box;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Further-Info
+{
+    top: 6534px;
+    left: 435px;
+    width: 402px;
+    height: 29px;
+    color: var(--unnamed-color-ababab);
+    text-align: left;
+    font: normal normal normal 22px/32px Futura PT;
+    letter-spacing: 0px;
+    color: #ABABAB;
+    opacity: 1;
+    margin: 60px 756px 247px 108px;
+}
+.TV-Website
+{
+    top: 6583px;
+    left: 435px;
+    width: 402px;
+    height: 167px;
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal normal 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1; 
+}
+.About-Author
+{
+    top: 6534px;
+    left: 867px;
+    width: 402px;
+    height: 29px;
+    color: var(--unnamed-color-ababab);
+    text-align: left;
+    font: normal normal normal 22px/32px Futura PT;
+    letter-spacing: 0px;
+    color: #ABABAB;
+    opacity: 1;
+    margin: 60px 324px 247px 540px;
+    margin-top: -278px;
+}
+#JennyBrewer
+{
+    top: 6583px;
+    left: 867px;
+    width: 402px;
+    height: 29px;
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 22px/32px Futura PT;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 10px 0px;
+}
+.Rectangle117
+{
+    top: 6612px;
+    left: 867px;
+    width: 32px;
+    height: 2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: -10px 0px;
+}
+#JennyJoinedText
+{
+    top: 6634px;
+    left: 867px;
+    width: 618px;
+    height: 71px;
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16.5px/24px Futura PT;
+    letter-spacing: -0.07px;
+    color: #000000;
+    opacity: 1;
+    margin: 20px 0px;
+}
+#jb
+{
+    text-decoration: underline;
+}
