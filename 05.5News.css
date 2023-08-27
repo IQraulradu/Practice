@@ -542,5 +542,50 @@ body
     width: 887px;
     height: 20px;
     opacity: 1;
-    border:1px  solid red;
+    color: var(--unnamed-color-444444);
+    text-align: left;
+    font: normal normal normal 15px/33px Futura PT;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+#Above
+{
+    top: 2419px;
+    left: 327px;
+    width: 33px;
+    height: 14px;
+    color: var(--unnamed-color-ababab);
+    text-align: left;
+    font: normal normal medium 11px/38px Futura PT;
+    letter-spacing: 0px;
+    color: #ABABAB;
+    text-transform: uppercase;
+    opacity: 1;  
+}
+#TextStudios
+{
+    top: 2415px;
+    left: 380px;
+    width: 834px;
+    height: 20px;
+    color: var(--unnamed-color-444444);
+    text-align: left;
+    font: normal normal normal 15px/33px Futura PT;
+    letter-spacing: 0px;
+    color: #444444;
+}
+#FactText
+{
+    position: absolute;
+    top: 2525px;
+    left: 543px;
+    width: 834px;
+    height: 531px;
+    color: var(--unnamed-color-333333);
+    text-align: left;
+    font: normal normal normal 17px/30px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
 }
