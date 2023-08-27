@@ -698,3 +698,94 @@ body
     margin: 0px 65px;
     margin-top: -20px;
 }
+.Image23
+{
+    position: absolute;
+    top: 4116px;
+    left: 327px;
+    width: 1266px;
+    height: 712px;
+    background: transparent url('Article/Image 23.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Group180
+{
+    position: absolute;
+    top: 4833px;
+    left: 327px;
+    width: 1050px;
+    height: 20px;
+    opacity: 1;
+}
+#AboveV4
+{
+    top: 4837px;
+    left: 327px;
+    width: 33px;
+    height: 14px;
+    color: var(--unnamed-color-ababab);
+    text-align: left;
+    font: normal normal medium 11px/38px Futura PT;
+    letter-spacing: 0px;
+    color: #ABABAB;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.HannahText
+{
+    top: 4833px;
+    left: 380px;
+    width: 997px;
+    height: 20px;
+    color: var(--unnamed-color-444444);
+    text-align: left;
+    font: normal normal normal 15px/18px Futura PT;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin: 1px 65px;
+    margin-top: -19px;
+}
+#WithText
+{
+    position: absolute;
+    top: 4953px;
+    left: 543px;
+    width: 834px;
+    height: 501px;
+    color: var(--unnamed-color-333333);
+    text-align: left;
+    font: normal normal normal 17px/30px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+#WholeText
+{
+    position: absolute;
+    top: 5564px;
+    left: 327px;
+    width: 618px;
+    height: 79px;
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 32px/38px Futura PT;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+#AptlyText
+{
+    position: absolute;
+    top: 5753px;
+    left: 543px;
+    width: 834px;
+    height: 531px;
+    color: var(--unnamed-color-333333);
+    text-align: left;
+    font: normal normal normal 17px/30px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
