@@ -589,3 +589,112 @@ body
     color: #333333;
     opacity: 1;
 }
+#EachText
+{
+    position: absolute;
+    top: 3244px;
+    left: 327px;
+    width: 618px;
+    height: 621px;
+    color: var(--unnamed-color-333333);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+.Imge21
+{
+    position: absolute;
+    top: 3244px;
+    left: 1083px;
+    width: 510px;
+    height: 286px;
+    background: transparent url('Article/Image 21_Image_minify.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Group177
+{
+    position: absolute;
+    top: 3535px;
+    left: 1083px;
+    width: 432px;
+    height: 38px;
+    opacity: 1;
+}
+#AboveV2
+{
+    top: 3539px;
+    left: 1083px;
+    width: 33px;
+    height: 14px;
+    color: var(--unnamed-color-ababab);
+    text-align: left;
+    font: normal normal medium 11px/38px Futura PT;
+    letter-spacing: 0px;
+    color: #ABABAB;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.ColinText
+{
+    top: 3535px;
+    left: 1136px;
+    width: 379px;
+    height: 38px;
+    color: var(--unnamed-color-444444);
+    text-align: left;
+    font: normal normal normal 14.5px/18px Futura PT;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin: 0px 65px;
+    margin-top: -20px;
+}
+.Image22
+{
+    position: absolute;
+    top: 3687px;
+    left: 1083px;
+    width: 510px;
+    height: 286px;
+    background: transparent url('Article/Image 22_Image_minify.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Group178
+{
+    position: absolute;
+    top: 3978px;
+    left: 1083px;
+    width: 432px;
+    height: 38px;
+    opacity: 1;
+}
+#AboveV3
+{   
+    top: 3982px;
+    left: 1083px;
+    width: 33px;
+    height: 14px;
+    color: var(--unnamed-color-ababab);
+    text-align: left;
+    font: normal normal medium 11px/38px Futura PT;
+    letter-spacing: 0px;
+    color: #ABABAB;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.MagnusText
+{
+    top: 3978px;
+    left: 1136px;
+    width: 379px;
+    height: 38px;
+    color: var(--unnamed-color-444444);
+    text-align: left;
+    font: normal normal normal 15px/18px Futura PT;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin: 0px 65px;
+    margin-top: -20px;
+}
