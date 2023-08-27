@@ -1113,3 +1113,181 @@ body
     background: transparent url('Article/Linkedin-2.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+
+.Blog-Post-2
+{
+    top: 7211px;
+    left: 327px;
+    width: 402px;
+    height: 490px;
+    opacity: 1;
+    border: 1px solid rgb(255, 0, 179);
+}
+.Blog-Post-Photo-2
+{
+    top: 7211px;
+    left: 759px;
+    width: 402px;
+    height: 273px;
+    background: transparent linear-gradient(180deg, #00000000 0%, var(--unnamed-color-000000) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+    background: transparent url('Article/1b6433634ad28fc5d76069027821da50.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Blog-Post-White-2
+{
+    top: 7484px;
+    left: 759px;
+    width: 402px;
+    height: 217px;
+    background: var(--unnamed-color-f5f5f5) 0% 0% no-repeat padding-box;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Blog-Post-Border-2
+{
+    top: 7221px;
+    left: 769px;
+    width: 382px;
+    height: 470px;
+    border: 2px solid var(--unnamed-color-0d0d0d);
+    border: 2px solid #0D0D0D;
+    opacity: 1;
+    margin: -480px 10px;
+    z-index: 1;
+}
+.Blog-Post-Border-2:hover
+{
+    top: 7221px;
+    left: 769px;
+    width: 382px;
+    height: 470px;
+    border: 2px solid var(--unnamed-color-54b3a1);
+    border: 2px solid #54B3A1;
+    background: transparent linear-gradient(180deg, #00000000 0%, var(--unnamed-color-000000) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+    background: transparent url('Article/1b6433634ad28fc5d76069027821da50@2x.png') 0% 0% no-repeat padding-box;
+    background-size:100%;
+    opacity: 1;
+    z-index: 1;
+}
+.Blog-Post-Date-2
+{
+    top: 7466px;
+    left: 789px;
+    width: 342px;
+    height: 23px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: 25px 15px;
+    margin-top: 250px;
+}
+.Blog-Post-BlackBorder-2
+{
+    top: 200px;  
+    bottom: 0;
+    width: 402px;
+    left: -2.5px;
+    width: 105.5%;
+    height: 15%;
+    background: transparent linear-gradient(180deg, #00000000 0%, var(--unnamed-color-000000) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: -100px;
+    margin-left: -13px;
+    z-index: 0;
+}
+.Blog-Post-Atomic-Text-2
+{
+    top: 7504px;
+    left: 789px;
+    width: 220px;
+    height: 55px;
+    color: var(--unnamed-color-0d0d0d);
+    text-align: left;
+    font: normal normal normal 24px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #0D0D0D;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: 15px 15px;
+}
+.Blog-Post-Rectangle44-2
+{
+    top: 7569px;
+    left: 789px;
+    width: 32px;
+    height: 2px;
+    background: var(--unnamed-color-0d0d0d) 0% 0% no-repeat padding-box;
+    background: #0D0D0D 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 10px 15px;
+}
+.Blog-Post-Border-2:hover .Blog-Post-Rectangle44-2
+{
+    top: 7569px;
+    left: 789px;
+    width: 32px;
+    height: 2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Blog-Post-Yeah-Text-2
+{
+    top: 7591px;
+    left: 789px;
+    width: 342px;
+    height: 71px;
+    color: var(--unnamed-color-333333);
+    text-align: left;
+    font: normal normal normal 18px/24px Futura PT;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+    margin: 15px 15px;
+}
+.Blog-Post-Social-Media-2
+{
+    top: 7509px;
+    left: 1039px;
+    width: 92px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -175px;
+    margin-left: 275px;
+    opacity: 1;
+}
+.Blog-Post-Facebook-2
+{
+    top: 7509px;
+    left: 1039px;
+    width: 26px;
+    height: 26px;
+    background: transparent url('Article/Facebook-2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Blog-Post-Twitter-2
+{
+    top: 7509px;
+    left: 1073px;
+    width: 26px;
+    height: 26px;
+    background: transparent url('Article/Twitter-2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Blog-Post-Linkedin-2
+{
+    top: 7509px;
+    left: 1107px;
+    width: 26px;
+    height: 26px;
+    background: transparent url('Article/Linkedin-2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
