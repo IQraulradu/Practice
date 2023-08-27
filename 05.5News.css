@@ -375,3 +375,24 @@ body
     opacity: 1;
     margin: 32px -1px;
 }
+.PhotoGroup
+{
+    position: absolute;
+    top: 169px;
+    left: 1083px;
+    width: 700px;
+    height: 810px;
+    background: transparent url('Article/606b945992a4ba01cf3b433a9a839107_Image_minify.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Rectangle114
+{
+    top: 189px;
+    left: 1103px;
+    width: 660px;
+    height: 770px;
+    border: 2px solid var(--unnamed-color-0d0d0d);
+    border: 2px solid #0D0D0D;
+    opacity: 1;
+    margin: 20px;
+}
