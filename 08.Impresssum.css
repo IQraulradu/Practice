@@ -290,3 +290,194 @@ body
     background: transparent url('BrandWeWork/Twitter-1.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+.Group110
+{
+    position: absolute;
+    top: 220px;
+    left: 543px;
+    width: 834px;
+    height: 1035px;
+    opacity: 1;
+    border: 1px solid red;
+}
+.Impressum
+{
+    top: 220px;
+    left: 543px;
+    width: 402px;
+    height: 55px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 43px/43px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    padding: 5px;
+    margin-left: -1px;
+}
+.Rectangle30
+{
+    top: 275px;
+    left: 543px;
+    width: 32px;
+    height: 2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: -1.5px 5px;
+}
+.Vienna-Text
+{
+    top: 307px;
+    left: 543px;
+    width: 834px;
+    height: 34px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 26px/30px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    opacity: 1;
+    margin: 32px -1px;
+}
+.Owner
+{
+    top: 401px;
+    left: 543px;
+    width: 834px;
+    height: 29px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 22px/30px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    opacity: 1;
+    margin: 60px -1px;
+}
+.Vienna-Distribution-Gmbh
+{
+    top: 435px;
+    left: 543px;
+    width: 834px;
+    height: 29px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 22px/30px Futura PT;
+    letter-spacing: 0px;
+    color: grey;
+    opacity: 1;
+    margin: -55px -1px;
+}
+.Address
+{
+    top: 494px;
+    left: 543px;
+    width: 834px;
+    height: 29px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 22px/30px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    opacity: 1;
+    margin: 85px -1px;
+}
+.LandStrasser
+{
+    top: 528px;
+    left: 543px;
+    width: 834px;
+    height: 59px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 22px/30px Futura PT;
+    letter-spacing: 0px;
+    color: grey;
+    opacity: 1;
+    margin: -80px -1px;
+}
+.Phone
+{
+    top: 617px;
+    left: 543px;
+    width: 834px;
+    height: 29px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 22px/30px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    opacity: 1;
+    margin: 110px -1px;
+}
+.Phone-Number
+{
+    top: 651px;
+    left: 543px;
+    width: 834px;
+    height: 29px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 22px/30px Futura PT;
+    letter-spacing: 0px;
+    color: grey;
+    opacity: 1;
+    margin: -105px -1px;
+}
+.Email
+{
+    top: 710px;
+    left: 543px;
+    width: 834px;
+    height: 29px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 22px/30px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    opacity: 1;
+    margin: 140px -1px;
+}
+.Support
+{
+    top: 744px;
+    left: 543px;
+    width: 834px;
+    height: 29px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 22px/30px Futura PT;
+    letter-spacing: 0px;
+    color: grey;
+    opacity: 1;
+    margin: -135px -1px;
+}
+.Website
+{
+    top: 803px;
+    left: 543px;
+    width: 834px;
+    height: 29px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 22px/30px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    opacity: 1;
+    margin: 170px -1px;
+}
+.WWW-Vienna
+{
+    top: 837px;
+    left: 543px;
+    width: 834px;
+    height: 29px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 22px/30px Futura PT;
+    letter-spacing: 0px;
+    color: grey;
+    opacity: 1;
+    margin: -165px -1px;
+}
