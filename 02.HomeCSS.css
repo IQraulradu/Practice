@@ -2630,6 +2630,7 @@
     font: normal normal medium 18px/24px Futura PT;
     letter-spacing: 0px;
     opacity: 1;
+
 }
 .PhotoGroup128
 {
@@ -2641,12 +2642,22 @@
     opacity: 1;
     margin: 3px;
 }
-.PhotoGroup128:hover
-{  
-    background: transparent url('Home/Group\ 267.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    margin-top: 3px;
+
+.Component21-1:hover .PhotoGroup128
+{
+    filter: invert(74%) sepia(18%) saturate(1059%) hue-rotate(119deg) brightness(180%) contrast(81%);
 }
+.Component21-2:hover .PhotoGroup128-2
+{
+    filter: invert(74%) sepia(18%) saturate(1059%) hue-rotate(119deg) brightness(180%) contrast(81%);
+}
+.Component21-3:hover .PhotoGroup128-3
+{
+    filter: invert(74%) sepia(18%) saturate(1059%) hue-rotate(119deg) brightness(180%) contrast(81%);
+}
+
+
+
 
 .Group227
 {
@@ -3439,7 +3450,8 @@
     color: #F5F5F5;
     text-transform: uppercase;
     opacity: 1;
-    text-decoration: none;   
+    text-decoration: none;
+    white-space: nowrap;   
 }
 #ContactFooter
 {
