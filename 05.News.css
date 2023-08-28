@@ -1267,3 +1267,18 @@ body{
     opacity: 1;
     white-space: nowrap;
 }
+.BlogPost a
+{
+    text-decoration: none;
+    list-style: none;
+}
+.BlogPost-1 a
+{
+    text-decoration: none;
+    list-style: none;
+}
+.BlogPost-2 a
+{
+    text-decoration: none;
+    list-style: none;
+}
