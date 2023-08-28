@@ -1467,3 +1467,133 @@ body
     background: transparent url('Article/Linkedin-2.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+
+.FooterPath50
+{
+    position: absolute;
+    top: 7903px;
+    left: 0px;
+    width: 1920px;
+    height: 397px;
+    background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Logo-vienna-distribution
+{
+    position: absolute;
+    top: 8035px;
+    left: 327px;
+    width: 186px;
+    height: 162px;
+    background: transparent url('Home/Group 56.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Group54Left
+{
+    position: absolute;
+    top: 8054px;
+    left: 759px;
+    width: 190px;
+    height: 125px;
+    opacity: 1;
+    line-height: 35px;
+    list-style-type: none;
+    
+}
+.Group54Left a
+{
+    top: 8054px;
+    left: 759px;
+    width: 46px;
+    height: 20px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal medium 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.Group54Center
+{
+    position: absolute;
+    top: 8054px;
+    left: 1191px;
+    width: 109px;
+    height: 125px;
+    opacity: 1;
+    list-style-type: none;
+    line-height: 35px;
+}
+.Group54Center a
+{
+    top: 8054px;
+    left: 1191px;
+    width: 51px;
+    height: 20px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal medium 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.Social-Media-FooterRight
+{
+    position: absolute;
+    top: 8101px;
+    left: 1467px;
+    width: 126px;
+    height: 32px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.Facebook-FooterRight
+{
+    top: 8101px;
+    left: 1467px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('BrandWeWork/Facebook.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Instagram-FooterRight
+{
+    top: 8101px;
+    left: 1514px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('BrandWeWork/Instagram.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.Twitter-FooterRight
+{
+    top: 8101px;
+    left: 1561px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('BrandWeWork/Twitter.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.RightsReserved
+{
+    position: absolute;
+    top: 8250px;
+    left: 759px;
+    width: 317px;
+    height: 20px;
+    color: var(--unnamed-color-ababab);
+    text-align: left;
+    font: normal normal normal 15px/20px Futura PT;
+    letter-spacing: 0px;
+    color: #ABABAB;
+    opacity: 1;
+    white-space: nowrap;
+}
