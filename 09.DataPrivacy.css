@@ -438,3 +438,31 @@ body
     opacity: 1;
     margin: -480px -1px;
 }
+.Cancellation
+{
+    top: 3169px;
+    left: 543px;
+    width: 834px;
+    height: 34px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 26px/30px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    opacity: 1;
+    margin: 510px -1px;
+}
+#Event-Text
+{
+    top: 3233px;
+    left: 543px;
+    width: 834px;
+    height: 539px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 22px/30px Futura PT;
+    letter-spacing: 0px;
+    color: grey;
+    opacity: 1;
+    margin: -480px -1px;
+}
