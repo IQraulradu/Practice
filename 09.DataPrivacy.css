@@ -2,3 +2,14 @@
     margin: 0px;
     padding: 0px;
 }
+body
+{   
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 8800px;
+    background: var(--unnamed-color-0d0d0d) 0% 0% no-repeat padding-box;
+    background: #0D0D0D 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
