@@ -4,6 +4,7 @@
 }
 body
 {   
+    position: absolute;
     top: 0px;
     left: 0px;
     width: 1920px;
@@ -289,4 +290,66 @@ body
     height: 14px;
     background: transparent url('BrandWeWork/Twitter-1.png') 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+.Group110
+{
+    position: absolute;
+    top: 220px;
+    left: 543px;
+    width: 834px;
+    height: 8007px;
+    opacity: 1;
+    border: 1px solid blue;
+}
+.Terms
+{
+    top: 220px;
+    left: 543px;
+    width: 402px;
+    height: 55px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 43px/43px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: 0px -1px;
+}
+.Rectangle30
+{
+    top: 275px;
+    left: 543px;
+    width: 32px;
+    height: 2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px -1px;
+}
+.Scope
+{
+    top: 337px;
+    left: 543px;
+    width: 834px;
+    height: 34px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 26px/30px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
+    opacity: 1;
+    margin: 30px -1px;
+}
+#General-Text
+{
+    top: 210px;
+    left: 0px;
+    width: 803px;
+    height: 29px;
+    color: var(--unnamed-color-f5f5f5);
+    text-align: left;
+    font: normal normal normal 20px/30px Futura PT;
+    letter-spacing: 0px;
+    color: #F5F5F5;
 }
