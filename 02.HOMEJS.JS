@@ -15,3 +15,6 @@
 // textFind.addEventListener("mouseout", function() {
 //     photoGroup.style.backgroundImage = "url('Home/Group128.png')";
 // });
+
+
+
