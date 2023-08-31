@@ -1597,3 +1597,6 @@ body
     opacity: 1;
     white-space: nowrap;
 }
+.Blog-Post-1 a{
+    text-decoration: none;
+}
