@@ -44,3 +44,7 @@ function hideTap() {
     }, 400); // 0.4 secunde
 }
 
+function myFunction()
+{
+    alert("You need to implement data validation");
+}
