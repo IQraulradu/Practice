@@ -49,3 +49,7 @@ const placeholderEmailText = inputEmailElement.getAttribute('placeholder');
            }, 2500);
         });
 
+        function  myFunction()
+        {
+            alert("Implementation is required !!!!")
+        }
