@@ -1745,10 +1745,7 @@
     transform: all 0.8s;
     cursor: pointer;
 }
-.BlogPhotoMiddle:hover
-{
-    transform: scale(1.01);
-}
+
 .BlogPostWhiteMiddle
 {
     top: 3817px;
@@ -1785,7 +1782,6 @@
 }
 .LittleBorderMiddle
 {
-    position: absolute;
     top: 3902px;
     left: 789px;
     width: 32px;
@@ -1793,9 +1789,10 @@
     background: var(--unnamed-color-0d0d0d) 0% 0% no-repeat padding-box;
     background: #0D0D0D 0% 0% no-repeat padding-box;
     opacity: 1;
+    margin: 348px 20px;
 
 }
-.LittleBorderMiddle:hover
+.BorderStandardMiddle:hover .LittleBorderMiddle
 {
     top: 3902px;
     left: 789px;
@@ -1805,6 +1802,9 @@
     background: #54B3A1 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+
+
+
 .DateBlogMiddle
 {
     position: absolute;
