@@ -1,16 +1,13 @@
 *{
    top:0px;
    left:0px;
+   width:1920px;
+   height:1080px;
 }
+
 body{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1920px;
-    height: 1080px;
-    background: var(--unnamed-color-0d0d0d) 0% 0% no-repeat padding-box;
-    background: #0D0D0D 0% 0% no-repeat padding-box;
-    opacity: 1;  
+    background:#0D0D0D 0% 0% no-repeat padding-box;
+    opacity: 1;   
 }
 #PhotoVienna {
     position:absolute;
@@ -102,12 +99,11 @@ body{
 }
 #DateDiv
 {
-    position:relative;
     top:-505px;
     margin-left: -666px;
 }
 #DateDay{
-    position: inherit;
+    position: absolute;
     top: 549px;
     left: 681px;
     width: 151px;
@@ -117,7 +113,7 @@ body{
     font: normal normal normal 18px/23px Futura PT;
     letter-spacing: 0px;
     color:#FFFFFF;
-    opacity: 0;
+    opacity: 1;
     z-index: 1;
     /* background:transparent;
     border:none; */
@@ -134,6 +130,7 @@ body{
     opacity: 1;
     margin-top: -1586px;
     margin-left: -652px;
+    z-index: 0;
 }
 /*Day box finish*/
 
