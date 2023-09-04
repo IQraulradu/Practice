@@ -73,4 +73,31 @@ body
     opacity: 1;
     border: 1px solid red;
 }
+.Day-Input
+{
+    top: 506px;
+    left: 681px;
+    width: 71px;
+    height: 20px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap;
+    margin: 0px 25px;
+}
+.White-Border-Input-Day
+{
+    top: 530px;
+    left: 651px;
+    width: 176px;
+    height: 60px;
+    border: 2px solid var(--unnamed-color-ffffff);
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    margin: 4px 0px;
+}
 
