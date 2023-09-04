@@ -37,4 +37,30 @@ body
     color: #FFFFFF;
     opacity: 1;
 }
+.Born-Text
+{
+    position: absolute;
+    top: 423px;
+    left: 768px;
+    width: 385px;
+    height: 41px;
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 32px/43px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.Rectangle30
+{
+    position: absolute;
+    top: 464px;
+    left: 945px;
+    width: 32px;
+    height: 2px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
 
