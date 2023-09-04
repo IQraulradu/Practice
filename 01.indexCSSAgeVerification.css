@@ -22,6 +22,19 @@ body
     height: 162px;
     background: transparent url('Home/Group 56.png') 0% 0% no-repeat padding-box;
     opacity: 1;
-
+}
+#Welcome-Text
+{
+    position: absolute;
+    top: 242px;
+    left: 649px;
+    width: 620px;
+    height: 63px;
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 24px/32px Futura PT;
+    letter-spacing: -0.12px;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
