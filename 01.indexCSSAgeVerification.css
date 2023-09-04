@@ -71,7 +71,7 @@ body
     width: 186px;
     height: 94px;
     opacity: 1;
-    border: 1px solid red;
+    z-index: 1;
 }
 .Day-Input
 {
@@ -100,4 +100,33 @@ body
     opacity: 1;
     margin: 4px 0px;
 }
+input[type=number]
+{
+    top: 549px;
+    left: 681px;
+    width: 128px;
+    height: 23px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 18px/23px Futura PT;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 19px 18px 18px 30px;
+    background: transparent;
+    z-index: 1;
+}
+.Color-Input
+{
+    position: absolute;
+    top: 540px;
+    left: 661px;
+    width: 176px;
+    height: 60px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 0;
+}
+
 
