@@ -175,3 +175,12 @@ input[type=number]
     background: transparent url('PhotoIndex/Facebook.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+.Instagram-Social-Media
+{
+    top: 908px;
+    left: 944px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('PhotoIndex/Instagram.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
