@@ -204,3 +204,14 @@ input[type=number]
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+.cookie-bar-border
+{
+    top: 980px;
+    left: 499px;
+    width: 922px;
+    height: 80px;
+    border: 1px solid var(--unnamed-color-ffffff);
+    border: 1px solid #FFFFFF;
+    opacity: 1; 
+    margin: 10px 10px;
+}
