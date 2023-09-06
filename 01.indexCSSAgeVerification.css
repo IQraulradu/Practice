@@ -170,6 +170,20 @@ input[type=number]
     opacity: 1;
     margin: 4px 0px;
 }
+.Color-Month-Input
+{
+    top: 540px;
+    left: 877px;
+    width: 176px;
+    height: 60px;
+    background: var(--unnamed-color-54b3a1) 0% 0% no-repeat padding-box;
+    background: #54B3A1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 0;
+    margin: 14px -15px;
+}
+
+
 #Button1
 {
     position: absolute;
