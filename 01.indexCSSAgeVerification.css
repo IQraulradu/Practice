@@ -128,6 +128,10 @@ input[type=number]
     z-index: 0;
     margin: 14px -15px;
 }
+.Container-Input:hover .Color-Input
+{
+    display: none;
+}
 #Button1
 {
     position: absolute;
