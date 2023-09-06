@@ -132,6 +132,17 @@ input[type=number]
 {
     display: none;
 }
+.Container-Input-Month
+{
+    position: absolute;
+    top: 506px;
+    left: 867px;
+    width: 186px;
+    height: 94px;
+    opacity: 1;
+    border: 1px solid red;
+
+}
 #Button1
 {
     position: absolute;
