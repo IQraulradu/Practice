@@ -143,6 +143,22 @@ input[type=number]
     border: 1px solid red;
 
 }
+.Month-Input
+{
+    top: 506px;
+    left: 897px;
+    width: 106px;
+    height: 20px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 15px/20px Futura PT;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap;
+    margin: 0px 25px;
+}
 #Button1
 {
     position: absolute;
