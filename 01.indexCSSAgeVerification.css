@@ -159,6 +159,17 @@ input[type=number]
     white-space: nowrap;
     margin: 0px 25px;
 }
+.Border-Month
+{
+    top: 530px;
+    left: 867px;
+    width: 176px;
+    height: 60px;
+    border: 2px solid var(--unnamed-color-ffffff);
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    margin: 4px 0px;
+}
 #Button1
 {
     position: absolute;
