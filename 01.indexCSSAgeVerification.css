@@ -140,8 +140,6 @@ input[type=number]
     width: 186px;
     height: 94px;
     opacity: 1;
-    border: 1px solid red;
-
 }
 .Month-Input
 {
@@ -182,7 +180,7 @@ input[type=number]
     z-index: 0;
     margin: 14px -15px;
 }
-input[type=number-month]
+#quantity-1
 {
     top: 549px;
     left: 897px;
@@ -194,6 +192,7 @@ input[type=number-month]
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+    background: transparent;
     margin: 19px 18px 18px 30px;
 
 }
