@@ -200,6 +200,17 @@ input[type=number]
     margin: 19px 18px 18px 30px;
 }
 
+.Container-Input-Year
+{
+    position:absolute;
+    top: 506px;
+    left: 1083px;
+    width: 186px;
+    height: 94px;
+    opacity: 1;
+    border: 1px solid red;
+}
+
 #Button1
 {
     position: absolute;
