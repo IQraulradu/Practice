@@ -180,6 +180,10 @@ input[type=number]
     z-index: 0;
     margin: 14px -15px;
 }
+.Container-Input-Month:hover .Color-Month-Input
+{
+    display: none;
+}
 #quantity-1
 {
     top: 549px;
@@ -194,7 +198,6 @@ input[type=number]
     opacity: 1;
     background: transparent;
     margin: 19px 18px 18px 30px;
-
 }
 
 #Button1
